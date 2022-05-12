@@ -1,2 +1,2 @@
    text	   data	    bss	    dec	    hex	filename
- 165832	   3528	3299456	3468816	 34ee10	lwip_test.elf
+ 170400	   3528	3299456	3473384	 34ffe8	lwip_test.elf

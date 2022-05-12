@@ -96,10 +96,11 @@ struct netif *EMAC_Read(struct netif *netif)
    if(bufstate & RBD_RDY_BIT_MASK)
    {
       nRxFrames = nRxFrames + 1;
-      printf("Packet Received count = %d\r\n",nRxFrames);
+      printf("Frames Received: %d\nFrames present add: %x\n",nRxFrames,devicePtr->RxbdRing.PresentAdd);
       bufadd = bufstate & ~(RBD_RDY_BIT_MASK | RBD_WRAP_BIT_MASK);
+      printf("Buf1: %08x\nBuf2: %08x\n",bufstate,bufflags);
 
-      p = pbuf_alloc(PBUF_LINK, bufflags & RBD_DATA_MASK, PBUF_RAM);
+      p = pbuf_alloc(PBUF_LINK, bufflags & RBD_DATA_MASK, PBUF_POOL);
 
       if (p == NULL)
       {
@@ -108,31 +109,40 @@ struct netif *EMAC_Read(struct netif *netif)
       }
       else
       {
+
          p->next = NULL;
          p->payload = (void *)bufadd;
          p->len = bufflags & RBD_DATA_MASK;
          p->tot_len = bufflags & RBD_DATA_MASK;
 
+         Xil_DCacheFlushRange((UINTPTR)p->payload, p->len);
+
          netif->input(p, netif);
       }
 
-      /*Mainpbuf.next = NULL;
-      Mainpbuf.payload = (void *)bufadd;
-      Mainpbuf.len = bufflags & RBD_DATA_MASK;
-      Mainpbuf.tot_len = bufflags & RBD_DATA_MASK;
-      Mainpbuf.type_internal = PBUF_RAM;
-
-      netif->input(&Mainpbuf, netif);*/
-
       if(devicePtr->RxbdRing.PresentAdd == devicePtr->RxbdRing.LastAdd)
       {
+         bufadd = (bufadd | RBD_WRAP_BIT_MASK) & ~RBD_RDY_BIT_MASK;
+         ((u32 *)devicePtr->RxbdRing.PresentAdd)[0] = bufadd;
+         ((u32 *)devicePtr->RxbdRing.PresentAdd)[1] = 0;
+
          devicePtr->RxbdRing.PresentAdd = devicePtr->RxbdRing.StartAdd;
       }
       else
       {
+         bufadd = bufadd & ~(RBD_RDY_BIT_MASK | RBD_WRAP_BIT_MASK);
+         ((u32 *)devicePtr->RxbdRing.PresentAdd)[0] = bufadd ;
+         ((u32 *)devicePtr->RxbdRing.PresentAdd)[1] = 0;
+
          devicePtr->RxbdRing.PresentAdd = devicePtr->RxbdRing.PresentAdd + 8;
       }
+
+      printf("\n\n\n\n\n\n");
+      pbuf_free(p);
+      p = NULL;
    }
+
+
 
 }/* End of EMAC_Read */
 /************************* Static Members *******************************/
@@ -599,9 +609,8 @@ static err_t EMACps_datasend(struct netif *netif, struct pbuf *p)
          break;
       }
    }
-
    nTxFrames = nTxFrames + 1;
-   printf("Frames sent: %d\nFrames present add: %x\nFrames Received: %d\n",nTxFrames,devicePtr->TxbdRing.PresentAdd,nRxFrames);
+   printf("Frames Sent: %d\nFrames present add: %x\n",nTxFrames,devicePtr->TxbdRing.PresentAdd);
 
    if(devicePtr->TxbdRing.PresentAdd == devicePtr->TxbdRing.LastAdd)
    {

@@ -3264,7 +3264,7 @@
  * ETHARP_DEBUG: Enable debugging in etharp.c.
  */
 #if !defined ETHARP_DEBUG || defined __DOXYGEN__
-#define ETHARP_DEBUG                    LWIP_DBG_ON
+#define ETHARP_DEBUG                    LWIP_DBG_OFF
 #endif
 
 /**
@@ -3306,7 +3306,7 @@
  * ICMP_DEBUG: Enable debugging in icmp.c.
  */
 #if !defined ICMP_DEBUG || defined __DOXYGEN__
-#define ICMP_DEBUG                      LWIP_DBG_ON
+#define ICMP_DEBUG                      LWIP_DBG_OFF
 #endif
 
 /**
@@ -3440,14 +3440,14 @@
  * UDP_DEBUG: Enable debugging in UDP.
  */
 #if !defined UDP_DEBUG || defined __DOXYGEN__
-#define UDP_DEBUG                       LWIP_DBG_OFF
+#define UDP_DEBUG                       LWIP_DBG_ON
 #endif
 
 /**
  * TCPIP_DEBUG: Enable debugging in tcpip.c.
  */
 #if !defined TCPIP_DEBUG || defined __DOXYGEN__
-#define TCPIP_DEBUG                     LWIP_DBG_OFF
+#define TCPIP_DEBUG                     LWIP_DBG_ON
 #endif
 
 /**

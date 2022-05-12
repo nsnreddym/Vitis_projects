@@ -1308,10 +1308,10 @@ udp_debug_print(struct udp_hdr *udphdr)
 {
   LWIP_DEBUGF(UDP_DEBUG, ("UDP header:\n"));
   LWIP_DEBUGF(UDP_DEBUG, ("+-------------------------------+\n"));
-  LWIP_DEBUGF(UDP_DEBUG, ("|     %5"U16_F"     |     %5"U16_F"     | (src port, dest port)\n",
+  LWIP_DEBUGF(UDP_DEBUG, ("|     %5x     |     %5x     | (src port, dest port)\n",
                           lwip_ntohs(udphdr->src), lwip_ntohs(udphdr->dest)));
   LWIP_DEBUGF(UDP_DEBUG, ("+-------------------------------+\n"));
-  LWIP_DEBUGF(UDP_DEBUG, ("|     %5"U16_F"     |     0x%04"X16_F"    | (len, chksum)\n",
+  LWIP_DEBUGF(UDP_DEBUG, ("|     %5x     |     0x%04x    | (len, chksum)\n",
                           lwip_ntohs(udphdr->len), lwip_ntohs(udphdr->chksum)));
   LWIP_DEBUGF(UDP_DEBUG, ("+-------------------------------+\n"));
 }
