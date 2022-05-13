@@ -148,7 +148,7 @@ struct netif *EMAC_Read(struct netif *netif)
 /************************* Static Members *******************************/
 static err_t EMACps_init(struct netif *netif)
 {
-   netif->flags = NETIF_FLAG_ETHARP;
+   netif->flags = NETIF_FLAG_ETHARP | NETIF_FLAG_LINK_UP;
    netif->linkoutput = EMACps_datasend;
    netif->output = EMACps_datasend_ip;
 

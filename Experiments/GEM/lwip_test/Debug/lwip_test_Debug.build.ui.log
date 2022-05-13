@@ -1,860 +1,9 @@
-2022-05-12T17:45:53.718369400255-17:45:53 **** Incremental Build of configuration Debug for project lwip_test ****
+2022-05-13T12:49:45.259973100255-12:49:45 **** Incremental Build of configuration Debug for project lwip_test ****
 000-make all 
 000-make --no-print-directory pre-build
 000-a9-linaro-pre-build-step
 000-' '
 000-make --no-print-directory main-build
-000-'Building file: ../src/lwip/netif/ppp/polarssl/arc4.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/polarssl/arc4.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/polarssl/arc4.d" -MT"src/lwip/netif/ppp/polarssl/arc4.o" -o "src/lwip/netif/ppp/polarssl/arc4.o" "../src/lwip/netif/ppp/polarssl/arc4.c"
-000-'Finished building: ../src/lwip/netif/ppp/polarssl/arc4.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/polarssl/des.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/polarssl/des.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/polarssl/des.d" -MT"src/lwip/netif/ppp/polarssl/des.o" -o "src/lwip/netif/ppp/polarssl/des.o" "../src/lwip/netif/ppp/polarssl/des.c"
-000-'Finished building: ../src/lwip/netif/ppp/polarssl/des.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/polarssl/md4.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/polarssl/md4.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/polarssl/md4.d" -MT"src/lwip/netif/ppp/polarssl/md4.o" -o "src/lwip/netif/ppp/polarssl/md4.o" "../src/lwip/netif/ppp/polarssl/md4.c"
-000-'Finished building: ../src/lwip/netif/ppp/polarssl/md4.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/polarssl/md5.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/polarssl/md5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/polarssl/md5.d" -MT"src/lwip/netif/ppp/polarssl/md5.o" -o "src/lwip/netif/ppp/polarssl/md5.o" "../src/lwip/netif/ppp/polarssl/md5.c"
-000-'Finished building: ../src/lwip/netif/ppp/polarssl/md5.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/polarssl/sha1.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/polarssl/sha1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/polarssl/sha1.d" -MT"src/lwip/netif/ppp/polarssl/sha1.o" -o "src/lwip/netif/ppp/polarssl/sha1.o" "../src/lwip/netif/ppp/polarssl/sha1.c"
-000-'Finished building: ../src/lwip/netif/ppp/polarssl/sha1.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/auth.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/auth.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/auth.d" -MT"src/lwip/netif/ppp/auth.o" -o "src/lwip/netif/ppp/auth.o" "../src/lwip/netif/ppp/auth.c"
-000-'Finished building: ../src/lwip/netif/ppp/auth.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/ccp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/ccp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/ccp.d" -MT"src/lwip/netif/ppp/ccp.o" -o "src/lwip/netif/ppp/ccp.o" "../src/lwip/netif/ppp/ccp.c"
-000-'Finished building: ../src/lwip/netif/ppp/ccp.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/chap-md5.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/chap-md5.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/chap-md5.d" -MT"src/lwip/netif/ppp/chap-md5.o" -o "src/lwip/netif/ppp/chap-md5.o" "../src/lwip/netif/ppp/chap-md5.c"
-000-'Finished building: ../src/lwip/netif/ppp/chap-md5.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/chap-new.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/chap-new.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/chap-new.d" -MT"src/lwip/netif/ppp/chap-new.o" -o "src/lwip/netif/ppp/chap-new.o" "../src/lwip/netif/ppp/chap-new.c"
-000-'Finished building: ../src/lwip/netif/ppp/chap-new.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/chap_ms.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/chap_ms.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/chap_ms.d" -MT"src/lwip/netif/ppp/chap_ms.o" -o "src/lwip/netif/ppp/chap_ms.o" "../src/lwip/netif/ppp/chap_ms.c"
-000-'Finished building: ../src/lwip/netif/ppp/chap_ms.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/demand.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/demand.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/demand.d" -MT"src/lwip/netif/ppp/demand.o" -o "src/lwip/netif/ppp/demand.o" "../src/lwip/netif/ppp/demand.c"
-000-'Finished building: ../src/lwip/netif/ppp/demand.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/eap.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/eap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/eap.d" -MT"src/lwip/netif/ppp/eap.o" -o "src/lwip/netif/ppp/eap.o" "../src/lwip/netif/ppp/eap.c"
-000-'Finished building: ../src/lwip/netif/ppp/eap.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/ecp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/ecp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/ecp.d" -MT"src/lwip/netif/ppp/ecp.o" -o "src/lwip/netif/ppp/ecp.o" "../src/lwip/netif/ppp/ecp.c"
-000-'Finished building: ../src/lwip/netif/ppp/ecp.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/eui64.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/eui64.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/eui64.d" -MT"src/lwip/netif/ppp/eui64.o" -o "src/lwip/netif/ppp/eui64.o" "../src/lwip/netif/ppp/eui64.c"
-000-'Finished building: ../src/lwip/netif/ppp/eui64.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/fsm.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/fsm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/fsm.d" -MT"src/lwip/netif/ppp/fsm.o" -o "src/lwip/netif/ppp/fsm.o" "../src/lwip/netif/ppp/fsm.c"
-000-'Finished building: ../src/lwip/netif/ppp/fsm.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/ipcp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/ipcp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/ipcp.d" -MT"src/lwip/netif/ppp/ipcp.o" -o "src/lwip/netif/ppp/ipcp.o" "../src/lwip/netif/ppp/ipcp.c"
-000-'Finished building: ../src/lwip/netif/ppp/ipcp.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/ipv6cp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/ipv6cp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/ipv6cp.d" -MT"src/lwip/netif/ppp/ipv6cp.o" -o "src/lwip/netif/ppp/ipv6cp.o" "../src/lwip/netif/ppp/ipv6cp.c"
-000-'Finished building: ../src/lwip/netif/ppp/ipv6cp.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/lcp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/lcp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/lcp.d" -MT"src/lwip/netif/ppp/lcp.o" -o "src/lwip/netif/ppp/lcp.o" "../src/lwip/netif/ppp/lcp.c"
-000-'Finished building: ../src/lwip/netif/ppp/lcp.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/magic.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/magic.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/magic.d" -MT"src/lwip/netif/ppp/magic.o" -o "src/lwip/netif/ppp/magic.o" "../src/lwip/netif/ppp/magic.c"
-000-'Finished building: ../src/lwip/netif/ppp/magic.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/mppe.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/mppe.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/mppe.d" -MT"src/lwip/netif/ppp/mppe.o" -o "src/lwip/netif/ppp/mppe.o" "../src/lwip/netif/ppp/mppe.c"
-000-'Finished building: ../src/lwip/netif/ppp/mppe.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/multilink.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/multilink.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/multilink.d" -MT"src/lwip/netif/ppp/multilink.o" -o "src/lwip/netif/ppp/multilink.o" "../src/lwip/netif/ppp/multilink.c"
-000-'Finished building: ../src/lwip/netif/ppp/multilink.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/ppp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/ppp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/ppp.d" -MT"src/lwip/netif/ppp/ppp.o" -o "src/lwip/netif/ppp/ppp.o" "../src/lwip/netif/ppp/ppp.c"
-000-'Finished building: ../src/lwip/netif/ppp/ppp.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/pppapi.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/pppapi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/pppapi.d" -MT"src/lwip/netif/ppp/pppapi.o" -o "src/lwip/netif/ppp/pppapi.o" "../src/lwip/netif/ppp/pppapi.c"
-000-'Finished building: ../src/lwip/netif/ppp/pppapi.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/pppcrypt.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/pppcrypt.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/pppcrypt.d" -MT"src/lwip/netif/ppp/pppcrypt.o" -o "src/lwip/netif/ppp/pppcrypt.o" "../src/lwip/netif/ppp/pppcrypt.c"
-000-'Finished building: ../src/lwip/netif/ppp/pppcrypt.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/pppoe.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/pppoe.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/pppoe.d" -MT"src/lwip/netif/ppp/pppoe.o" -o "src/lwip/netif/ppp/pppoe.o" "../src/lwip/netif/ppp/pppoe.c"
-000-'Finished building: ../src/lwip/netif/ppp/pppoe.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/pppol2tp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/pppol2tp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/pppol2tp.d" -MT"src/lwip/netif/ppp/pppol2tp.o" -o "src/lwip/netif/ppp/pppol2tp.o" "../src/lwip/netif/ppp/pppol2tp.c"
-000-'Finished building: ../src/lwip/netif/ppp/pppol2tp.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/pppos.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/pppos.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/pppos.d" -MT"src/lwip/netif/ppp/pppos.o" -o "src/lwip/netif/ppp/pppos.o" "../src/lwip/netif/ppp/pppos.c"
-000-'Finished building: ../src/lwip/netif/ppp/pppos.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/upap.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/upap.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/upap.d" -MT"src/lwip/netif/ppp/upap.o" -o "src/lwip/netif/ppp/upap.o" "../src/lwip/netif/ppp/upap.c"
-000-'Finished building: ../src/lwip/netif/ppp/upap.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/utils.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/utils.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/utils.d" -MT"src/lwip/netif/ppp/utils.o" -o "src/lwip/netif/ppp/utils.o" "../src/lwip/netif/ppp/utils.c"
-000-'Finished building: ../src/lwip/netif/ppp/utils.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ppp/vj.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ppp/vj.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ppp/vj.d" -MT"src/lwip/netif/ppp/vj.o" -o "src/lwip/netif/ppp/vj.o" "../src/lwip/netif/ppp/vj.c"
-000-'Finished building: ../src/lwip/netif/ppp/vj.c'
-000-' '
-000-'Building file: ../src/lwip/netif/ethernet.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/ethernet.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/ethernet.d" -MT"src/lwip/netif/ethernet.o" -o "src/lwip/netif/ethernet.o" "../src/lwip/netif/ethernet.c"
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/arch.h:48,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:40,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/netif/ethernet.c:41:
-000-../src/lwip/netif/ethernet.c: In function 'ethernet_input':
-000/lwip_test/src/lwip/contrib/include/arch/cc.h80-1-1implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cc.h:80:36: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_DIAG(x) do { xil_printf x; } while(0)
-000-                                    ^~~~~~~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h150-1-1in expansion of macro 'LWIP_PLATFORM_DIAG'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:150:34: note: in expansion of macro 'LWIP_PLATFORM_DIAG'
-000-                                  LWIP_PLATFORM_DIAG(message); \
-000-                                  ^~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/netif/ethernet.c105-1-1in expansion of macro 'LWIP_DEBUGF'0-../src/lwip/netif/ethernet.c:105:3: note: in expansion of macro 'LWIP_DEBUGF'
-000-   LWIP_DEBUGF(ETHARP_DEBUG | LWIP_DBG_TRACE,
-000-   ^~~~~~~~~~~
-000-'Finished building: ../src/lwip/netif/ethernet.c'
-000-' '
-000-'Building file: ../src/lwip/netif/lowpan6.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/lowpan6.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/lowpan6.d" -MT"src/lwip/netif/lowpan6.o" -o "src/lwip/netif/lowpan6.o" "../src/lwip/netif/lowpan6.c"
-000-'Finished building: ../src/lwip/netif/lowpan6.c'
-000-' '
-000-'Building file: ../src/lwip/netif/lowpan6_ble.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/lowpan6_ble.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/lowpan6_ble.d" -MT"src/lwip/netif/lowpan6_ble.o" -o "src/lwip/netif/lowpan6_ble.o" "../src/lwip/netif/lowpan6_ble.c"
-000-'Finished building: ../src/lwip/netif/lowpan6_ble.c'
-000-' '
-000-'Building file: ../src/lwip/netif/lowpan6_common.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/lowpan6_common.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/lowpan6_common.d" -MT"src/lwip/netif/lowpan6_common.o" -o "src/lwip/netif/lowpan6_common.o" "../src/lwip/netif/lowpan6_common.c"
-000-'Finished building: ../src/lwip/netif/lowpan6_common.c'
-000-' '
-000-'Building file: ../src/lwip/netif/zepif.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/netif/zepif.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/netif/zepif.d" -MT"src/lwip/netif/zepif.o" -o "src/lwip/netif/zepif.o" "../src/lwip/netif/zepif.c"
-000-'Finished building: ../src/lwip/netif/zepif.c'
-000-' '
-000-'Building file: ../src/lwip/core/ipv6/dhcp6.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/ipv6/dhcp6.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/ipv6/dhcp6.d" -MT"src/lwip/core/ipv6/dhcp6.o" -o "src/lwip/core/ipv6/dhcp6.o" "../src/lwip/core/ipv6/dhcp6.c"
-000-'Finished building: ../src/lwip/core/ipv6/dhcp6.c'
-000-' '
-000-'Building file: ../src/lwip/core/ipv6/ethip6.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/ipv6/ethip6.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/ipv6/ethip6.d" -MT"src/lwip/core/ipv6/ethip6.o" -o "src/lwip/core/ipv6/ethip6.o" "../src/lwip/core/ipv6/ethip6.c"
-000-'Finished building: ../src/lwip/core/ipv6/ethip6.c'
-000-' '
-000-'Building file: ../src/lwip/core/ipv6/icmp6.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/ipv6/icmp6.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/ipv6/icmp6.d" -MT"src/lwip/core/ipv6/icmp6.o" -o "src/lwip/core/ipv6/icmp6.o" "../src/lwip/core/ipv6/icmp6.c"
-000-'Finished building: ../src/lwip/core/ipv6/icmp6.c'
-000-' '
-000-'Building file: ../src/lwip/core/ipv6/inet6.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/ipv6/inet6.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/ipv6/inet6.d" -MT"src/lwip/core/ipv6/inet6.o" -o "src/lwip/core/ipv6/inet6.o" "../src/lwip/core/ipv6/inet6.c"
-000-'Finished building: ../src/lwip/core/ipv6/inet6.c'
-000-' '
-000-'Building file: ../src/lwip/core/ipv6/ip6.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/ipv6/ip6.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/ipv6/ip6.d" -MT"src/lwip/core/ipv6/ip6.o" -o "src/lwip/core/ipv6/ip6.o" "../src/lwip/core/ipv6/ip6.c"
-000-'Finished building: ../src/lwip/core/ipv6/ip6.c'
-000-' '
-000-'Building file: ../src/lwip/core/ipv6/ip6_addr.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/ipv6/ip6_addr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/ipv6/ip6_addr.d" -MT"src/lwip/core/ipv6/ip6_addr.o" -o "src/lwip/core/ipv6/ip6_addr.o" "../src/lwip/core/ipv6/ip6_addr.c"
-000-'Finished building: ../src/lwip/core/ipv6/ip6_addr.c'
-000-' '
-000-'Building file: ../src/lwip/core/ipv6/ip6_frag.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/ipv6/ip6_frag.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/ipv6/ip6_frag.d" -MT"src/lwip/core/ipv6/ip6_frag.o" -o "src/lwip/core/ipv6/ip6_frag.o" "../src/lwip/core/ipv6/ip6_frag.c"
-000-'Finished building: ../src/lwip/core/ipv6/ip6_frag.c'
-000-' '
-000-'Building file: ../src/lwip/core/ipv6/mld6.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/ipv6/mld6.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/ipv6/mld6.d" -MT"src/lwip/core/ipv6/mld6.o" -o "src/lwip/core/ipv6/mld6.o" "../src/lwip/core/ipv6/mld6.c"
-000-'Finished building: ../src/lwip/core/ipv6/mld6.c'
-000-' '
-000-'Building file: ../src/lwip/core/ipv6/nd6.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/ipv6/nd6.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/ipv6/nd6.d" -MT"src/lwip/core/ipv6/nd6.o" -o "src/lwip/core/ipv6/nd6.o" "../src/lwip/core/ipv6/nd6.c"
-000-'Finished building: ../src/lwip/core/ipv6/nd6.c'
-000-' '
-000-'Building file: ../src/lwip/core/ipv4/autoip.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/ipv4/autoip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/ipv4/autoip.d" -MT"src/lwip/core/ipv4/autoip.o" -o "src/lwip/core/ipv4/autoip.o" "../src/lwip/core/ipv4/autoip.c"
-000-'Finished building: ../src/lwip/core/ipv4/autoip.c'
-000-' '
-000-'Building file: ../src/lwip/core/ipv4/dhcp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/ipv4/dhcp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/ipv4/dhcp.d" -MT"src/lwip/core/ipv4/dhcp.o" -o "src/lwip/core/ipv4/dhcp.o" "../src/lwip/core/ipv4/dhcp.c"
-000-'Finished building: ../src/lwip/core/ipv4/dhcp.c'
-000-' '
-000-'Building file: ../src/lwip/core/ipv4/etharp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/ipv4/etharp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/ipv4/etharp.d" -MT"src/lwip/core/ipv4/etharp.o" -o "src/lwip/core/ipv4/etharp.o" "../src/lwip/core/ipv4/etharp.c"
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/arch.h:48,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:40,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/ipv4/etharp.c:46:
-000-../src/lwip/core/ipv4/etharp.c: In function 'etharp_free_entry':
-000/lwip_test/src/lwip/contrib/include/arch/cc.h80-1-1implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cc.h:80:36: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_DIAG(x) do { xil_printf x; } while(0)
-000-                                    ^~~~~~~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h150-1-1in expansion of macro 'LWIP_PLATFORM_DIAG'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:150:34: note: in expansion of macro 'LWIP_PLATFORM_DIAG'
-000-                                  LWIP_PLATFORM_DIAG(message); \
-000-                                  ^~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/ipv4/etharp.c175-1-1in expansion of macro 'LWIP_DEBUGF'0-../src/lwip/core/ipv4/etharp.c:175:5: note: in expansion of macro 'LWIP_DEBUGF'
-000-     LWIP_DEBUGF(ETHARP_DEBUG, ("etharp_free_entry: freeing entry %"U16_F", packet queue %p.\n", (u16_t)i, (void *)(arp_table[i].q)));
-000-     ^~~~~~~~~~~
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/ipv4/etharp.c:46:
-000-../src/lwip/core/ipv4/etharp.c: In function 'etharp_input':
-000/lwip_test/src/lwip/include/lwip/debug.h126-1-1implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:126:38: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_ERROR(message) print(message)
-000-                                      ^~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h131-1-1in expansion of macro 'LWIP_PLATFORM_ERROR'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:131:3: note: in expansion of macro 'LWIP_PLATFORM_ERROR'
-000-   LWIP_PLATFORM_ERROR(message); handler;}} while(0)
-000-   ^~~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/ipv4/etharp.c650-1-1in expansion of macro 'LWIP_ERROR'0-../src/lwip/core/ipv4/etharp.c:650:3: note: in expansion of macro 'LWIP_ERROR'
-000-   LWIP_ERROR("netif != NULL", (netif != NULL), return;);
-000-   ^~~~~~~~~~
-000-'Finished building: ../src/lwip/core/ipv4/etharp.c'
-000-' '
-000-'Building file: ../src/lwip/core/ipv4/icmp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/ipv4/icmp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/ipv4/icmp.d" -MT"src/lwip/core/ipv4/icmp.o" -o "src/lwip/core/ipv4/icmp.o" "../src/lwip/core/ipv4/icmp.c"
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/arch.h:48,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:40,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/ipv4/icmp.c:42:
-000-../src/lwip/core/ipv4/icmp.c: In function 'icmp_input':
-000/lwip_test/src/lwip/contrib/include/arch/cc.h80-1-1implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cc.h:80:36: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_DIAG(x) do { xil_printf x; } while(0)
-000-                                    ^~~~~~~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h150-1-1in expansion of macro 'LWIP_PLATFORM_DIAG'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:150:34: note: in expansion of macro 'LWIP_PLATFORM_DIAG'
-000-                                  LWIP_PLATFORM_DIAG(message); \
-000-                                  ^~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/ipv4/icmp.c97-1-1in expansion of macro 'LWIP_DEBUGF'0-../src/lwip/core/ipv4/icmp.c:97:5: note: in expansion of macro 'LWIP_DEBUGF'
-000-     LWIP_DEBUGF(ICMP_DEBUG, ("icmp_input: short IP header (%"S16_F" bytes) received\n", hlen));
-000-     ^~~~~~~~~~~
-000-'Finished building: ../src/lwip/core/ipv4/icmp.c'
-000-' '
-000-'Building file: ../src/lwip/core/ipv4/igmp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/ipv4/igmp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/ipv4/igmp.d" -MT"src/lwip/core/ipv4/igmp.o" -o "src/lwip/core/ipv4/igmp.o" "../src/lwip/core/ipv4/igmp.c"
-000-'Finished building: ../src/lwip/core/ipv4/igmp.c'
-000-' '
-000-'Building file: ../src/lwip/core/ipv4/ip4.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/ipv4/ip4.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/ipv4/ip4.d" -MT"src/lwip/core/ipv4/ip4.o" -o "src/lwip/core/ipv4/ip4.o" "../src/lwip/core/ipv4/ip4.c"
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/arch.h:48,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:40,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/ipv4/ip4.c:41:
-000-../src/lwip/core/ipv4/ip4.c: In function 'ip4_route':
-000/lwip_test/src/lwip/contrib/include/arch/cc.h80-1-1implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cc.h:80:36: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_DIAG(x) do { xil_printf x; } while(0)
-000-                                    ^~~~~~~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h150-1-1in expansion of macro 'LWIP_PLATFORM_DIAG'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:150:34: note: in expansion of macro 'LWIP_PLATFORM_DIAG'
-000-                                  LWIP_PLATFORM_DIAG(message); \
-000-                                  ^~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/ipv4/ip4.c220-1-1in expansion of macro 'LWIP_DEBUGF'0-../src/lwip/core/ipv4/ip4.c:220:5: note: in expansion of macro 'LWIP_DEBUGF'
-000-     LWIP_DEBUGF(IP_DEBUG | LWIP_DBG_LEVEL_SERIOUS, ("ip4_route: No route to %"U16_F".%"U16_F".%"U16_F".%"U16_F"\n",
-000-     ^~~~~~~~~~~
-000-'Finished building: ../src/lwip/core/ipv4/ip4.c'
-000-' '
-000-'Building file: ../src/lwip/core/ipv4/ip4_addr.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/ipv4/ip4_addr.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/ipv4/ip4_addr.d" -MT"src/lwip/core/ipv4/ip4_addr.o" -o "src/lwip/core/ipv4/ip4_addr.o" "../src/lwip/core/ipv4/ip4_addr.c"
-000-'Finished building: ../src/lwip/core/ipv4/ip4_addr.c'
-000-' '
-000-'Building file: ../src/lwip/core/ipv4/ip4_frag.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/ipv4/ip4_frag.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/ipv4/ip4_frag.d" -MT"src/lwip/core/ipv4/ip4_frag.o" -o "src/lwip/core/ipv4/ip4_frag.o" "../src/lwip/core/ipv4/ip4_frag.c"
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/arch.h:48,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:40,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/ipv4/ip4_frag.c:41:
-000-../src/lwip/core/ipv4/ip4_frag.c: In function 'ip_reass_tmr':
-000/lwip_test/src/lwip/contrib/include/arch/cc.h80-1-1implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cc.h:80:36: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_DIAG(x) do { xil_printf x; } while(0)
-000-                                    ^~~~~~~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h150-1-1in expansion of macro 'LWIP_PLATFORM_DIAG'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:150:34: note: in expansion of macro 'LWIP_PLATFORM_DIAG'
-000-                                  LWIP_PLATFORM_DIAG(message); \
-000-                                  ^~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/ipv4/ip4_frag.c138-1-1in expansion of macro 'LWIP_DEBUGF'0-../src/lwip/core/ipv4/ip4_frag.c:138:7: note: in expansion of macro 'LWIP_DEBUGF'
-000-       LWIP_DEBUGF(IP_REASS_DEBUG, ("ip_reass_tmr: timer dec %"U16_F"\n", (u16_t)r->timer));
-000-       ^~~~~~~~~~~
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/ipv4/ip4_frag.c:41:
-000-../src/lwip/core/ipv4/ip4_frag.c: In function 'ip4_frag':
-000/lwip_test/src/lwip/include/lwip/debug.h126-1-1implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:126:38: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_ERROR(message) print(message)
-000-                                      ^~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h131-1-1in expansion of macro 'LWIP_PLATFORM_ERROR'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:131:3: note: in expansion of macro 'LWIP_PLATFORM_ERROR'
-000-   LWIP_PLATFORM_ERROR(message); handler;}} while(0)
-000-   ^~~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/ipv4/ip4_frag.c764-1-1in expansion of macro 'LWIP_ERROR'0-../src/lwip/core/ipv4/ip4_frag.c:764:3: note: in expansion of macro 'LWIP_ERROR'
-000-   LWIP_ERROR("ip4_frag(): pbuf too short", p->len >= IP_HLEN, return ERR_VAL);
-000-   ^~~~~~~~~~
-000-'Finished building: ../src/lwip/core/ipv4/ip4_frag.c'
-000-' '
-000-'Building file: ../src/lwip/core/altcp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/altcp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/altcp.d" -MT"src/lwip/core/altcp.o" -o "src/lwip/core/altcp.o" "../src/lwip/core/altcp.c"
-000-'Finished building: ../src/lwip/core/altcp.c'
-000-' '
-000-'Building file: ../src/lwip/core/altcp_alloc.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/altcp_alloc.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/altcp_alloc.d" -MT"src/lwip/core/altcp_alloc.o" -o "src/lwip/core/altcp_alloc.o" "../src/lwip/core/altcp_alloc.c"
-000-'Finished building: ../src/lwip/core/altcp_alloc.c'
-000-' '
-000-'Building file: ../src/lwip/core/altcp_tcp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/altcp_tcp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/altcp_tcp.d" -MT"src/lwip/core/altcp_tcp.o" -o "src/lwip/core/altcp_tcp.o" "../src/lwip/core/altcp_tcp.c"
-000-'Finished building: ../src/lwip/core/altcp_tcp.c'
-000-' '
-000-'Building file: ../src/lwip/core/def.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/def.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/def.d" -MT"src/lwip/core/def.o" -o "src/lwip/core/def.o" "../src/lwip/core/def.c"
-000-'Finished building: ../src/lwip/core/def.c'
-000-' '
-000-'Building file: ../src/lwip/core/dns.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/dns.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/dns.d" -MT"src/lwip/core/dns.o" -o "src/lwip/core/dns.o" "../src/lwip/core/dns.c"
-000-'Finished building: ../src/lwip/core/dns.c'
-000-' '
-000-'Building file: ../src/lwip/core/inet_chksum.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/inet_chksum.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/inet_chksum.d" -MT"src/lwip/core/inet_chksum.o" -o "src/lwip/core/inet_chksum.o" "../src/lwip/core/inet_chksum.c"
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/arch.h:48,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:40,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/inet_chksum.c:48:
-000-../src/lwip/core/inet_chksum.c: In function 'inet_cksum_pseudo_base':
-000/lwip_test/src/lwip/contrib/include/arch/cc.h80-1-1implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cc.h:80:36: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_DIAG(x) do { xil_printf x; } while(0)
-000-                                    ^~~~~~~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h150-1-1in expansion of macro 'LWIP_PLATFORM_DIAG'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:150:34: note: in expansion of macro 'LWIP_PLATFORM_DIAG'
-000-                                  LWIP_PLATFORM_DIAG(message); \
-000-                                  ^~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/inet_chksum.c267-1-1in expansion of macro 'LWIP_DEBUGF'0-../src/lwip/core/inet_chksum.c:267:5: note: in expansion of macro 'LWIP_DEBUGF'
-000-     LWIP_DEBUGF(INET_DEBUG, ("inet_chksum_pseudo(): checksumming pbuf %p (has next %p) \n",
-000-     ^~~~~~~~~~~
-000-'Finished building: ../src/lwip/core/inet_chksum.c'
-000-' '
-000-'Building file: ../src/lwip/core/init.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/init.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/init.d" -MT"src/lwip/core/init.o" -o "src/lwip/core/init.o" "../src/lwip/core/init.c"
-000-'Finished building: ../src/lwip/core/init.c'
-000-' '
-000-'Building file: ../src/lwip/core/ip.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/ip.d" -MT"src/lwip/core/ip.o" -o "src/lwip/core/ip.o" "../src/lwip/core/ip.c"
-000-'Finished building: ../src/lwip/core/ip.c'
-000-' '
-000-'Building file: ../src/lwip/core/mem.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/mem.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/mem.d" -MT"src/lwip/core/mem.o" -o "src/lwip/core/mem.o" "../src/lwip/core/mem.c"
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/arch.h:48,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:40,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/mem.c:56:
-000-../src/lwip/core/mem.c: In function 'mem_free':
-000/lwip_test/src/lwip/contrib/include/arch/cc.h80-1-1implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cc.h:80:36: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_DIAG(x) do { xil_printf x; } while(0)
-000-                                    ^~~~~~~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h150-1-1in expansion of macro 'LWIP_PLATFORM_DIAG'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:150:34: note: in expansion of macro 'LWIP_PLATFORM_DIAG'
-000-                                  LWIP_PLATFORM_DIAG(message); \
-000-                                  ^~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/mem.c623-1-1in expansion of macro 'LWIP_DEBUGF'0-../src/lwip/core/mem.c:623:5: note: in expansion of macro 'LWIP_DEBUGF'
-000-     LWIP_DEBUGF(MEM_DEBUG | LWIP_DBG_TRACE | LWIP_DBG_LEVEL_SERIOUS, ("mem_free(p == NULL) was called.\n"));
-000-     ^~~~~~~~~~~
-000-'Finished building: ../src/lwip/core/mem.c'
-000-' '
-000-'Building file: ../src/lwip/core/memp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/memp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/memp.d" -MT"src/lwip/core/memp.o" -o "src/lwip/core/memp.o" "../src/lwip/core/memp.c"
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/arch.h:48,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:40,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/memp.c:46:
-000-../src/lwip/core/memp.c: In function 'do_memp_malloc_pool':
-000/lwip_test/src/lwip/contrib/include/arch/cc.h80-1-1implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cc.h:80:36: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_DIAG(x) do { xil_printf x; } while(0)
-000-                                    ^~~~~~~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h150-1-1in expansion of macro 'LWIP_PLATFORM_DIAG'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:150:34: note: in expansion of macro 'LWIP_PLATFORM_DIAG'
-000-                                  LWIP_PLATFORM_DIAG(message); \
-000-                                  ^~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/memp.c296-1-1in expansion of macro 'LWIP_DEBUGF'0-../src/lwip/core/memp.c:296:5: note: in expansion of macro 'LWIP_DEBUGF'
-000-     LWIP_DEBUGF(MEMP_DEBUG | LWIP_DBG_LEVEL_SERIOUS, ("memp_malloc: out of memory in pool %s\n", desc->desc));
-000-     ^~~~~~~~~~~
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/memp.c:46:
-000-../src/lwip/core/memp.c: In function 'memp_malloc':
-000/lwip_test/src/lwip/include/lwip/debug.h126-1-1implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:126:38: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_ERROR(message) print(message)
-000-                                      ^~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h131-1-1in expansion of macro 'LWIP_PLATFORM_ERROR'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:131:3: note: in expansion of macro 'LWIP_PLATFORM_ERROR'
-000-   LWIP_PLATFORM_ERROR(message); handler;}} while(0)
-000-   ^~~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/memp.c343-1-1in expansion of macro 'LWIP_ERROR'0-../src/lwip/core/memp.c:343:3: note: in expansion of macro 'LWIP_ERROR'
-000-   LWIP_ERROR("memp_malloc: type < MEMP_MAX", (type < MEMP_MAX), return NULL;);
-000-   ^~~~~~~~~~
-000-'Finished building: ../src/lwip/core/memp.c'
-000-' '
-000-'Building file: ../src/lwip/core/netif.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/netif.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/netif.d" -MT"src/lwip/core/netif.o" -o "src/lwip/core/netif.o" "../src/lwip/core/netif.c"
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/netif.c:51:
-000-../src/lwip/core/netif.c: In function 'netif_add':
-000/lwip_test/src/lwip/include/lwip/debug.h126-1-1implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:126:38: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_ERROR(message) print(message)
-000-                                      ^~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h131-1-1in expansion of macro 'LWIP_PLATFORM_ERROR'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:131:3: note: in expansion of macro 'LWIP_PLATFORM_ERROR'
-000-   LWIP_PLATFORM_ERROR(message); handler;}} while(0)
-000-   ^~~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/netif.c295-1-1in expansion of macro 'LWIP_ERROR'0-../src/lwip/core/netif.c:295:3: note: in expansion of macro 'LWIP_ERROR'
-000-   LWIP_ERROR("netif_add: invalid netif", netif != NULL, return NULL);
-000-   ^~~~~~~~~~
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/arch.h:48,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:40,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/netif.c:51:
-000/lwip_test/src/lwip/contrib/include/arch/cc.h80-1-1implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cc.h:80:36: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_DIAG(x) do { xil_printf x; } while(0)
-000-                                    ^~~~~~~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h150-1-1in expansion of macro 'LWIP_PLATFORM_DIAG'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:150:34: note: in expansion of macro 'LWIP_PLATFORM_DIAG'
-000-                                  LWIP_PLATFORM_DIAG(message); \
-000-                                  ^~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/netif.c427-1-1in expansion of macro 'LWIP_DEBUGF'0-../src/lwip/core/netif.c:427:3: note: in expansion of macro 'LWIP_DEBUGF'
-000-   LWIP_DEBUGF(NETIF_DEBUG, ("netif: added interface %c%c IP",
-000-   ^~~~~~~~~~~
-000-'Finished building: ../src/lwip/core/netif.c'
-000-' '
-000-'Building file: ../src/lwip/core/pbuf.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/pbuf.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/pbuf.d" -MT"src/lwip/core/pbuf.o" -o "src/lwip/core/pbuf.o" "../src/lwip/core/pbuf.c"
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/arch.h:48,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:40,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/pbuf.c:71:
-000-../src/lwip/core/pbuf.c: In function 'pbuf_free_ooseq':
-000/lwip_test/src/lwip/contrib/include/arch/cc.h80-1-1implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cc.h:80:36: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_DIAG(x) do { xil_printf x; } while(0)
-000-                                    ^~~~~~~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h150-1-1in expansion of macro 'LWIP_PLATFORM_DIAG'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:150:34: note: in expansion of macro 'LWIP_PLATFORM_DIAG'
-000-                                  LWIP_PLATFORM_DIAG(message); \
-000-                                  ^~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/pbuf.c136-1-1in expansion of macro 'LWIP_DEBUGF'0-../src/lwip/core/pbuf.c:136:7: note: in expansion of macro 'LWIP_DEBUGF'
-000-       LWIP_DEBUGF(PBUF_DEBUG | LWIP_DBG_TRACE, ("pbuf_free_ooseq: freeing out-of-sequence pbufs\n"));
-000-       ^~~~~~~~~~~
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/pbuf.c:71:
-000-../src/lwip/core/pbuf.c: In function 'pbuf_remove_header':
-000/lwip_test/src/lwip/include/lwip/debug.h126-1-1implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:126:38: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_ERROR(message) print(message)
-000-                                      ^~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h131-1-1in expansion of macro 'LWIP_PLATFORM_ERROR'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:131:3: note: in expansion of macro 'LWIP_PLATFORM_ERROR'
-000-   LWIP_PLATFORM_ERROR(message); handler;}} while(0)
-000-   ^~~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/pbuf.c597-1-1in expansion of macro 'LWIP_ERROR'0-../src/lwip/core/pbuf.c:597:3: note: in expansion of macro 'LWIP_ERROR'
-000-   LWIP_ERROR("increment_magnitude <= p->len", (increment_magnitude <= p->len), return 1;);
-000-   ^~~~~~~~~~
-000-'Finished building: ../src/lwip/core/pbuf.c'
-000-' '
-000-'Building file: ../src/lwip/core/raw.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/raw.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/raw.d" -MT"src/lwip/core/raw.o" -o "src/lwip/core/raw.o" "../src/lwip/core/raw.c"
-000-'Finished building: ../src/lwip/core/raw.c'
-000-' '
-000-'Building file: ../src/lwip/core/stats.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/stats.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/stats.d" -MT"src/lwip/core/stats.o" -o "src/lwip/core/stats.o" "../src/lwip/core/stats.c"
-000-'Finished building: ../src/lwip/core/stats.c'
-000-' '
-000-'Building file: ../src/lwip/core/sys.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/sys.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/sys.d" -MT"src/lwip/core/sys.o" -o "src/lwip/core/sys.o" "../src/lwip/core/sys.c"
-000-'Finished building: ../src/lwip/core/sys.c'
-000-' '
-000-'Building file: ../src/lwip/core/tcp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/tcp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/tcp.d" -MT"src/lwip/core/tcp.o" -o "src/lwip/core/tcp.o" "../src/lwip/core/tcp.c"
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/tcp.c:100:
-000-../src/lwip/core/tcp.c: In function 'tcp_close':
-000/lwip_test/src/lwip/include/lwip/debug.h126-1-1implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:126:38: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_ERROR(message) print(message)
-000-                                      ^~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h131-1-1in expansion of macro 'LWIP_PLATFORM_ERROR'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:131:3: note: in expansion of macro 'LWIP_PLATFORM_ERROR'
-000-   LWIP_PLATFORM_ERROR(message); handler;}} while(0)
-000-   ^~~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/tcp.c488-1-1in expansion of macro 'LWIP_ERROR'0-../src/lwip/core/tcp.c:488:3: note: in expansion of macro 'LWIP_ERROR'
-000-   LWIP_ERROR("tcp_close: invalid pcb", pcb != NULL, return ERR_ARG);
-000-   ^~~~~~~~~~
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/arch.h:48,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:40,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/tcp.c:100:
-000/lwip_test/src/lwip/contrib/include/arch/cc.h80-1-1implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cc.h:80:36: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_DIAG(x) do { xil_printf x; } while(0)
-000-                                    ^~~~~~~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h150-1-1in expansion of macro 'LWIP_PLATFORM_DIAG'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:150:34: note: in expansion of macro 'LWIP_PLATFORM_DIAG'
-000-                                  LWIP_PLATFORM_DIAG(message); \
-000-                                  ^~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/tcp.c489-1-1in expansion of macro 'LWIP_DEBUGF'0-../src/lwip/core/tcp.c:489:3: note: in expansion of macro 'LWIP_DEBUGF'
-000-   LWIP_DEBUGF(TCP_DEBUG, ("tcp_close: closing in "));
-000-   ^~~~~~~~~~~
-000-'Finished building: ../src/lwip/core/tcp.c'
-000-' '
-000-'Building file: ../src/lwip/core/tcp_in.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/tcp_in.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/tcp_in.d" -MT"src/lwip/core/tcp_in.o" -o "src/lwip/core/tcp_in.o" "../src/lwip/core/tcp_in.c"
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/arch.h:48,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:40,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/tcp_in.c:44:
-000-../src/lwip/core/tcp_in.c: In function 'tcp_input':
-000/lwip_test/src/lwip/contrib/include/arch/cc.h80-1-1implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cc.h:80:36: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_DIAG(x) do { xil_printf x; } while(0)
-000-                                    ^~~~~~~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h150-1-1in expansion of macro 'LWIP_PLATFORM_DIAG'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:150:34: note: in expansion of macro 'LWIP_PLATFORM_DIAG'
-000-                                  LWIP_PLATFORM_DIAG(message); \
-000-                                  ^~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/tcp_in.c147-1-1in expansion of macro 'LWIP_DEBUGF'0-../src/lwip/core/tcp_in.c:147:5: note: in expansion of macro 'LWIP_DEBUGF'
-000-     LWIP_DEBUGF(TCP_INPUT_DEBUG, ("tcp_input: short packet (%"U16_F" bytes) discarded\n", p->tot_len));
-000-     ^~~~~~~~~~~
-000-'Finished building: ../src/lwip/core/tcp_in.c'
-000-' '
-000-'Building file: ../src/lwip/core/tcp_out.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/tcp_out.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/tcp_out.d" -MT"src/lwip/core/tcp_out.o" -o "src/lwip/core/tcp_out.o" "../src/lwip/core/tcp_out.c"
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/arch.h:48,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:40,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/tcp_out.c:63:
-000-../src/lwip/core/tcp_out.c: In function 'tcp_create_segment':
-000/lwip_test/src/lwip/contrib/include/arch/cc.h80-1-1implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cc.h:80:36: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_DIAG(x) do { xil_printf x; } while(0)
-000-                                    ^~~~~~~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h150-1-1in expansion of macro 'LWIP_PLATFORM_DIAG'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:150:34: note: in expansion of macro 'LWIP_PLATFORM_DIAG'
-000-                                  LWIP_PLATFORM_DIAG(message); \
-000-                                  ^~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/tcp_out.c169-1-1in expansion of macro 'LWIP_DEBUGF'0-../src/lwip/core/tcp_out.c:169:5: note: in expansion of macro 'LWIP_DEBUGF'
-000-     LWIP_DEBUGF(TCP_OUTPUT_DEBUG | LWIP_DBG_LEVEL_SERIOUS, ("tcp_create_segment: no memory.\n"));
-000-     ^~~~~~~~~~~
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/tcp_out.c:63:
-000-../src/lwip/core/tcp_out.c: In function 'tcp_write':
-000/lwip_test/src/lwip/include/lwip/debug.h126-1-1implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:126:38: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_ERROR(message) print(message)
-000-                                      ^~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h131-1-1in expansion of macro 'LWIP_PLATFORM_ERROR'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:131:3: note: in expansion of macro 'LWIP_PLATFORM_ERROR'
-000-   LWIP_PLATFORM_ERROR(message); handler;}} while(0)
-000-   ^~~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/tcp_out.c414-1-1in expansion of macro 'LWIP_ERROR'0-../src/lwip/core/tcp_out.c:414:3: note: in expansion of macro 'LWIP_ERROR'
-000-   LWIP_ERROR("tcp_write: invalid pcb", pcb != NULL, return ERR_ARG);
-000-   ^~~~~~~~~~
-000-'Finished building: ../src/lwip/core/tcp_out.c'
-000-' '
-000-'Building file: ../src/lwip/core/timeouts.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/timeouts.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/timeouts.d" -MT"src/lwip/core/timeouts.o" -o "src/lwip/core/timeouts.o" "../src/lwip/core/timeouts.c"
-000-'Finished building: ../src/lwip/core/timeouts.c'
-000-' '
-000-'Building file: ../src/lwip/core/udp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/core/udp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/core/udp.d" -MT"src/lwip/core/udp.o" -o "src/lwip/core/udp.o" "../src/lwip/core/udp.c"
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/arch.h:48,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:40,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/udp.c:48:
-000-../src/lwip/core/udp.c: In function 'udp_input':
-000/lwip_test/src/lwip/contrib/include/arch/cc.h80-1-1implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cc.h:80:36: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_DIAG(x) do { xil_printf x; } while(0)
-000-                                    ^~~~~~~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h150-1-1in expansion of macro 'LWIP_PLATFORM_DIAG'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:150:34: note: in expansion of macro 'LWIP_PLATFORM_DIAG'
-000-                                  LWIP_PLATFORM_DIAG(message); \
-000-                                  ^~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/udp.c217-1-1in expansion of macro 'LWIP_DEBUGF'0-../src/lwip/core/udp.c:217:5: note: in expansion of macro 'LWIP_DEBUGF'
-000-     LWIP_DEBUGF(UDP_DEBUG,
-000-     ^~~~~~~~~~~
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from ../src/lwip/core/udp.c:48:
-000-../src/lwip/core/udp.c: In function 'udp_send':
-000/lwip_test/src/lwip/include/lwip/debug.h126-1-1implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:126:38: warning: implicit declaration of function 'print'; did you mean 'printf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_ERROR(message) print(message)
-000-                                      ^~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h131-1-1in expansion of macro 'LWIP_PLATFORM_ERROR'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:131:3: note: in expansion of macro 'LWIP_PLATFORM_ERROR'
-000-   LWIP_PLATFORM_ERROR(message); handler;}} while(0)
-000-   ^~~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/core/udp.c469-1-1in expansion of macro 'LWIP_ERROR'0-../src/lwip/core/udp.c:469:3: note: in expansion of macro 'LWIP_ERROR'
-000-   LWIP_ERROR("udp_send: invalid pcb", pcb != NULL, return ERR_ARG);
-000-   ^~~~~~~~~~
-000-'Finished building: ../src/lwip/core/udp.c'
-000-' '
-000-'Building file: ../src/lwip/contrib/sys_arch_raw.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/contrib/sys_arch_raw.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/contrib/sys_arch_raw.d" -MT"src/lwip/contrib/sys_arch_raw.o" -o "src/lwip/contrib/sys_arch_raw.o" "../src/lwip/contrib/sys_arch_raw.c"
-000-'Finished building: ../src/lwip/contrib/sys_arch_raw.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_asn1.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_asn1.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_asn1.d" -MT"src/lwip/apps/snmp/snmp_asn1.o" -o "src/lwip/apps/snmp/snmp_asn1.o" "../src/lwip/apps/snmp/snmp_asn1.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_asn1.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_core.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_core.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_core.d" -MT"src/lwip/apps/snmp/snmp_core.o" -o "src/lwip/apps/snmp/snmp_core.o" "../src/lwip/apps/snmp/snmp_core.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_core.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_mib2.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_mib2.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_mib2.d" -MT"src/lwip/apps/snmp/snmp_mib2.o" -o "src/lwip/apps/snmp/snmp_mib2.o" "../src/lwip/apps/snmp/snmp_mib2.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_mib2.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_mib2_icmp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_mib2_icmp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_mib2_icmp.d" -MT"src/lwip/apps/snmp/snmp_mib2_icmp.o" -o "src/lwip/apps/snmp/snmp_mib2_icmp.o" "../src/lwip/apps/snmp/snmp_mib2_icmp.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_mib2_icmp.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_mib2_interfaces.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_mib2_interfaces.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_mib2_interfaces.d" -MT"src/lwip/apps/snmp/snmp_mib2_interfaces.o" -o "src/lwip/apps/snmp/snmp_mib2_interfaces.o" "../src/lwip/apps/snmp/snmp_mib2_interfaces.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_mib2_interfaces.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_mib2_ip.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_mib2_ip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_mib2_ip.d" -MT"src/lwip/apps/snmp/snmp_mib2_ip.o" -o "src/lwip/apps/snmp/snmp_mib2_ip.o" "../src/lwip/apps/snmp/snmp_mib2_ip.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_mib2_ip.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_mib2_snmp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_mib2_snmp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_mib2_snmp.d" -MT"src/lwip/apps/snmp/snmp_mib2_snmp.o" -o "src/lwip/apps/snmp/snmp_mib2_snmp.o" "../src/lwip/apps/snmp/snmp_mib2_snmp.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_mib2_snmp.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_mib2_system.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_mib2_system.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_mib2_system.d" -MT"src/lwip/apps/snmp/snmp_mib2_system.o" -o "src/lwip/apps/snmp/snmp_mib2_system.o" "../src/lwip/apps/snmp/snmp_mib2_system.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_mib2_system.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_mib2_tcp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_mib2_tcp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_mib2_tcp.d" -MT"src/lwip/apps/snmp/snmp_mib2_tcp.o" -o "src/lwip/apps/snmp/snmp_mib2_tcp.o" "../src/lwip/apps/snmp/snmp_mib2_tcp.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_mib2_tcp.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_mib2_udp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_mib2_udp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_mib2_udp.d" -MT"src/lwip/apps/snmp/snmp_mib2_udp.o" -o "src/lwip/apps/snmp/snmp_mib2_udp.o" "../src/lwip/apps/snmp/snmp_mib2_udp.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_mib2_udp.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_msg.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_msg.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_msg.d" -MT"src/lwip/apps/snmp/snmp_msg.o" -o "src/lwip/apps/snmp/snmp_msg.o" "../src/lwip/apps/snmp/snmp_msg.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_msg.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_netconn.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_netconn.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_netconn.d" -MT"src/lwip/apps/snmp/snmp_netconn.o" -o "src/lwip/apps/snmp/snmp_netconn.o" "../src/lwip/apps/snmp/snmp_netconn.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_netconn.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_pbuf_stream.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_pbuf_stream.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_pbuf_stream.d" -MT"src/lwip/apps/snmp/snmp_pbuf_stream.o" -o "src/lwip/apps/snmp/snmp_pbuf_stream.o" "../src/lwip/apps/snmp/snmp_pbuf_stream.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_pbuf_stream.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_raw.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_raw.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_raw.d" -MT"src/lwip/apps/snmp/snmp_raw.o" -o "src/lwip/apps/snmp/snmp_raw.o" "../src/lwip/apps/snmp/snmp_raw.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_raw.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_scalar.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_scalar.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_scalar.d" -MT"src/lwip/apps/snmp/snmp_scalar.o" -o "src/lwip/apps/snmp/snmp_scalar.o" "../src/lwip/apps/snmp/snmp_scalar.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_scalar.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_snmpv2_framework.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_snmpv2_framework.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_snmpv2_framework.d" -MT"src/lwip/apps/snmp/snmp_snmpv2_framework.o" -o "src/lwip/apps/snmp/snmp_snmpv2_framework.o" "../src/lwip/apps/snmp/snmp_snmpv2_framework.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_snmpv2_framework.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_snmpv2_usm.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_snmpv2_usm.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_snmpv2_usm.d" -MT"src/lwip/apps/snmp/snmp_snmpv2_usm.o" -o "src/lwip/apps/snmp/snmp_snmpv2_usm.o" "../src/lwip/apps/snmp/snmp_snmpv2_usm.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_snmpv2_usm.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_table.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_table.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_table.d" -MT"src/lwip/apps/snmp/snmp_table.o" -o "src/lwip/apps/snmp/snmp_table.o" "../src/lwip/apps/snmp/snmp_table.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_table.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_threadsync.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_threadsync.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_threadsync.d" -MT"src/lwip/apps/snmp/snmp_threadsync.o" -o "src/lwip/apps/snmp/snmp_threadsync.o" "../src/lwip/apps/snmp/snmp_threadsync.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_threadsync.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmp_traps.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmp_traps.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmp_traps.d" -MT"src/lwip/apps/snmp/snmp_traps.o" -o "src/lwip/apps/snmp/snmp_traps.o" "../src/lwip/apps/snmp/snmp_traps.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmp_traps.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmpv3.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmpv3.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmpv3.d" -MT"src/lwip/apps/snmp/snmpv3.o" -o "src/lwip/apps/snmp/snmpv3.o" "../src/lwip/apps/snmp/snmpv3.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmpv3.c'
-000-' '
-000-'Building file: ../src/lwip/apps/snmp/snmpv3_mbedtls.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/snmp/snmpv3_mbedtls.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/snmp/snmpv3_mbedtls.d" -MT"src/lwip/apps/snmp/snmpv3_mbedtls.o" -o "src/lwip/apps/snmp/snmpv3_mbedtls.o" "../src/lwip/apps/snmp/snmpv3_mbedtls.c"
-000-'Finished building: ../src/lwip/apps/snmp/snmpv3_mbedtls.c'
-000-' '
-000-'Building file: ../src/lwip/apps/smtp/smtp.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/smtp/smtp.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/smtp/smtp.d" -MT"src/lwip/apps/smtp/smtp.o" -o "src/lwip/apps/smtp/smtp.o" "../src/lwip/apps/smtp/smtp.c"
-000-In file included from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/arch.h:48,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:40,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:52,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/apps/smtp_opts.h:4,
-000-                 from E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/apps/smtp.h:8,
-000-                 from ../src/lwip/apps/smtp/smtp.c:57:
-000-../src/lwip/apps/smtp/smtp.c: In function 'smtp_set_auth':
-000/lwip_test/src/lwip/contrib/include/arch/cc.h80-1-1implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]1-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cc.h:80:36: warning: implicit declaration of function 'xil_printf'; did you mean 'viprintf'? [-Wimplicit-function-declaration]
-000- #define LWIP_PLATFORM_DIAG(x) do { xil_printf x; } while(0)
-000-                                    ^~~~~~~~~~
-000/lwip_test/src/lwip/include/lwip/debug.h150-1-1in expansion of macro 'LWIP_PLATFORM_DIAG'0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h:150:34: note: in expansion of macro 'LWIP_PLATFORM_DIAG'
-000-                                  LWIP_PLATFORM_DIAG(message); \
-000-                                  ^~~~~~~~~~~~~~~~~~
-000/lwip_test/src/lwip/apps/smtp/smtp.c413-1-1in expansion of macro 'LWIP_DEBUGF'0-../src/lwip/apps/smtp/smtp.c:413:7: note: in expansion of macro 'LWIP_DEBUGF'
-000-       LWIP_DEBUGF(SMTP_DEBUG_SERIOUS, ("Username is too long, %d instead of %d\n",
-000-       ^~~~~~~~~~~
-000-'Finished building: ../src/lwip/apps/smtp/smtp.c'
-000-' '
-000-'Building file: ../src/lwip/apps/netbiosns/netbiosns.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/netbiosns/netbiosns.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/netbiosns/netbiosns.d" -MT"src/lwip/apps/netbiosns/netbiosns.o" -o "src/lwip/apps/netbiosns/netbiosns.o" "../src/lwip/apps/netbiosns/netbiosns.c"
-000-'Finished building: ../src/lwip/apps/netbiosns/netbiosns.c'
-000-' '
-000-'Building file: ../src/lwip/apps/mdns/mdns.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/mdns/mdns.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/mdns/mdns.d" -MT"src/lwip/apps/mdns/mdns.o" -o "src/lwip/apps/mdns/mdns.o" "../src/lwip/apps/mdns/mdns.c"
-000-'Finished building: ../src/lwip/apps/mdns/mdns.c'
-000-' '
-000-'Building file: ../src/lwip/apps/altcp_tls/altcp_tls_mbedtls.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/altcp_tls/altcp_tls_mbedtls.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/altcp_tls/altcp_tls_mbedtls.d" -MT"src/lwip/apps/altcp_tls/altcp_tls_mbedtls.o" -o "src/lwip/apps/altcp_tls/altcp_tls_mbedtls.o" "../src/lwip/apps/altcp_tls/altcp_tls_mbedtls.c"
-000-'Finished building: ../src/lwip/apps/altcp_tls/altcp_tls_mbedtls.c'
-000-' '
-000-'Building file: ../src/lwip/apps/altcp_tls/altcp_tls_mbedtls_mem.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/apps/altcp_tls/altcp_tls_mbedtls_mem.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/apps/altcp_tls/altcp_tls_mbedtls_mem.d" -MT"src/lwip/apps/altcp_tls/altcp_tls_mbedtls_mem.o" -o "src/lwip/apps/altcp_tls/altcp_tls_mbedtls_mem.o" "../src/lwip/apps/altcp_tls/altcp_tls_mbedtls_mem.c"
-000-'Finished building: ../src/lwip/apps/altcp_tls/altcp_tls_mbedtls_mem.c'
-000-' '
-000-'Building file: ../src/lwip/api/api_lib.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/api/api_lib.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/api/api_lib.d" -MT"src/lwip/api/api_lib.o" -o "src/lwip/api/api_lib.o" "../src/lwip/api/api_lib.c"
-000-'Finished building: ../src/lwip/api/api_lib.c'
-000-' '
-000-'Building file: ../src/lwip/api/api_msg.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/api/api_msg.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/api/api_msg.d" -MT"src/lwip/api/api_msg.o" -o "src/lwip/api/api_msg.o" "../src/lwip/api/api_msg.c"
-000-'Finished building: ../src/lwip/api/api_msg.c'
-000-' '
-000-'Building file: ../src/lwip/api/err.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/api/err.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/api/err.d" -MT"src/lwip/api/err.o" -o "src/lwip/api/err.o" "../src/lwip/api/err.c"
-000-'Finished building: ../src/lwip/api/err.c'
-000-' '
-000-'Building file: ../src/lwip/api/if_api.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/api/if_api.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/api/if_api.d" -MT"src/lwip/api/if_api.o" -o "src/lwip/api/if_api.o" "../src/lwip/api/if_api.c"
-000-'Finished building: ../src/lwip/api/if_api.c'
-000-' '
-000-'Building file: ../src/lwip/api/netbuf.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/api/netbuf.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/api/netbuf.d" -MT"src/lwip/api/netbuf.o" -o "src/lwip/api/netbuf.o" "../src/lwip/api/netbuf.c"
-000-'Finished building: ../src/lwip/api/netbuf.c'
-000-' '
-000-'Building file: ../src/lwip/api/netdb.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/api/netdb.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/api/netdb.d" -MT"src/lwip/api/netdb.o" -o "src/lwip/api/netdb.o" "../src/lwip/api/netdb.c"
-000-'Finished building: ../src/lwip/api/netdb.c'
-000-' '
-000-'Building file: ../src/lwip/api/netifapi.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/api/netifapi.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/api/netifapi.d" -MT"src/lwip/api/netifapi.o" -o "src/lwip/api/netifapi.o" "../src/lwip/api/netifapi.c"
-000-'Finished building: ../src/lwip/api/netifapi.c'
-000-' '
-000-'Building file: ../src/lwip/api/sockets.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/api/sockets.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/api/sockets.d" -MT"src/lwip/api/sockets.o" -o "src/lwip/api/sockets.o" "../src/lwip/api/sockets.c"
-000-'Finished building: ../src/lwip/api/sockets.c'
-000-' '
-000-'Building file: ../src/lwip/api/tcpip.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/lwip/api/tcpip.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/lwip/api/tcpip.d" -MT"src/lwip/api/tcpip.o" -o "src/lwip/api/tcpip.o" "../src/lwip/api/tcpip.c"
-000-'Finished building: ../src/lwip/api/tcpip.c'
-000-' '
 000-'Building file: ../src/Ethernet/Ethernetif.c'
 000-'Invoking: ARM v7 gcc compiler'
 000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/Ethernet/Ethernetif.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/Ethernet/Ethernetif.d" -MT"src/Ethernet/Ethernetif.o" -o "src/Ethernet/Ethernetif.o" "../src/Ethernet/Ethernetif.c"
@@ -922,20 +71,6 @@
 000- ^
 000-'Finished building: ../src/Ethernet/Ethernetif.c'
 000-' '
-000-'Building file: ../src/Main.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/Main.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/Main.d" -MT"src/Main.o" -o "src/Main.o" "../src/Main.c"
-000-../src/Main.c: In function 'main':
-000/lwip_test/src/Main.c23-1-1implicit declaration of function 'lwip_init'; did you mean 'ip_init'? [-Wimplicit-function-declaration]1-../src/Main.c:23:4: warning: implicit declaration of function 'lwip_init'; did you mean 'ip_init'? [-Wimplicit-function-declaration]
-000-    lwip_init();
-000-    ^~~~~~~~~
-000-    ip_init
-000/lwip_test/src/Main.c47-1-1implicit declaration of function 'EMAC_Read'; did you mean 'EMAC_add'? [-Wimplicit-function-declaration]1-../src/Main.c:47:5: warning: implicit declaration of function 'EMAC_Read'; did you mean 'EMAC_add'? [-Wimplicit-function-declaration]
-000-     EMAC_Read(&Eth_netif);
-000-     ^~~~~~~~~
-000-     EMAC_add
-000-'Finished building: ../src/Main.c'
-000-' '
 000-'Building target: lwip_test.elf'
 000-'Invoking: ARM v7 gcc linker'
 000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bsplib/lib -o "lwip_test.elf"  ./src/lwip/netif/ppp/polarssl/arc4.o ./src/lwip/netif/ppp/polarssl/des.o ./src/lwip/netif/ppp/polarssl/md4.o ./src/lwip/netif/ppp/polarssl/md5.o ./src/lwip/netif/ppp/polarssl/sha1.o  ./src/lwip/netif/ppp/auth.o ./src/lwip/netif/ppp/ccp.o ./src/lwip/netif/ppp/chap-md5.o ./src/lwip/netif/ppp/chap-new.o ./src/lwip/netif/ppp/chap_ms.o ./src/lwip/netif/ppp/demand.o ./src/lwip/netif/ppp/eap.o ./src/lwip/netif/ppp/ecp.o ./src/lwip/netif/ppp/eui64.o ./src/lwip/netif/ppp/fsm.o ./src/lwip/netif/ppp/ipcp.o ./src/lwip/netif/ppp/ipv6cp.o ./src/lwip/netif/ppp/lcp.o ./src/lwip/netif/ppp/magic.o ./src/lwip/netif/ppp/mppe.o ./src/lwip/netif/ppp/multilink.o ./src/lwip/netif/ppp/ppp.o ./src/lwip/netif/ppp/pppapi.o ./src/lwip/netif/ppp/pppcrypt.o ./src/lwip/netif/ppp/pppoe.o ./src/lwip/netif/ppp/pppol2tp.o ./src/lwip/netif/ppp/pppos.o ./src/lwip/netif/ppp/upap.o ./src/lwip/netif/ppp/utils.o ./src/lwip/netif/ppp/vj.o  ./src/lwip/netif/ethernet.o ./src/lwip/netif/lowpan6.o ./src/lwip/netif/lowpan6_ble.o ./src/lwip/netif/lowpan6_common.o ./src/lwip/netif/zepif.o  ./src/lwip/core/ipv6/dhcp6.o ./src/lwip/core/ipv6/ethip6.o ./src/lwip/core/ipv6/icmp6.o ./src/lwip/core/ipv6/inet6.o ./src/lwip/core/ipv6/ip6.o ./src/lwip/core/ipv6/ip6_addr.o ./src/lwip/core/ipv6/ip6_frag.o ./src/lwip/core/ipv6/mld6.o ./src/lwip/core/ipv6/nd6.o  ./src/lwip/core/ipv4/autoip.o ./src/lwip/core/ipv4/dhcp.o ./src/lwip/core/ipv4/etharp.o ./src/lwip/core/ipv4/icmp.o ./src/lwip/core/ipv4/igmp.o ./src/lwip/core/ipv4/ip4.o ./src/lwip/core/ipv4/ip4_addr.o ./src/lwip/core/ipv4/ip4_frag.o  ./src/lwip/core/altcp.o ./src/lwip/core/altcp_alloc.o ./src/lwip/core/altcp_tcp.o ./src/lwip/core/def.o ./src/lwip/core/dns.o ./src/lwip/core/inet_chksum.o ./src/lwip/core/init.o ./src/lwip/core/ip.o ./src/lwip/core/mem.o ./src/lwip/core/memp.o ./src/lwip/core/netif.o ./src/lwip/core/pbuf.o ./src/lwip/core/raw.o ./src/lwip/core/stats.o ./src/lwip/core/sys.o ./src/lwip/core/tcp.o ./src/lwip/core/tcp_in.o ./src/lwip/core/tcp_out.o ./src/lwip/core/timeouts.o ./src/lwip/core/udp.o  ./src/lwip/contrib/sys_arch.o ./src/lwip/contrib/sys_arch_raw.o  ./src/lwip/apps/snmp/snmp_asn1.o ./src/lwip/apps/snmp/snmp_core.o ./src/lwip/apps/snmp/snmp_mib2.o ./src/lwip/apps/snmp/snmp_mib2_icmp.o ./src/lwip/apps/snmp/snmp_mib2_interfaces.o ./src/lwip/apps/snmp/snmp_mib2_ip.o ./src/lwip/apps/snmp/snmp_mib2_snmp.o ./src/lwip/apps/snmp/snmp_mib2_system.o ./src/lwip/apps/snmp/snmp_mib2_tcp.o ./src/lwip/apps/snmp/snmp_mib2_udp.o ./src/lwip/apps/snmp/snmp_msg.o ./src/lwip/apps/snmp/snmp_netconn.o ./src/lwip/apps/snmp/snmp_pbuf_stream.o ./src/lwip/apps/snmp/snmp_raw.o ./src/lwip/apps/snmp/snmp_scalar.o ./src/lwip/apps/snmp/snmp_snmpv2_framework.o ./src/lwip/apps/snmp/snmp_snmpv2_usm.o ./src/lwip/apps/snmp/snmp_table.o ./src/lwip/apps/snmp/snmp_threadsync.o ./src/lwip/apps/snmp/snmp_traps.o ./src/lwip/apps/snmp/snmpv3.o ./src/lwip/apps/snmp/snmpv3_mbedtls.o  ./src/lwip/apps/smtp/smtp.o  ./src/lwip/apps/netbiosns/netbiosns.o  ./src/lwip/apps/mdns/mdns.o  ./src/lwip/apps/altcp_tls/altcp_tls_mbedtls.o ./src/lwip/apps/altcp_tls/altcp_tls_mbedtls_mem.o  ./src/lwip/api/api_lib.o ./src/lwip/api/api_msg.o ./src/lwip/api/err.o ./src/lwip/api/if_api.o ./src/lwip/api/netbuf.o ./src/lwip/api/netdb.o ./src/lwip/api/netifapi.o ./src/lwip/api/sockets.o ./src/lwip/api/tcpip.o  ./src/Ethernet/EthernetHW.o ./src/Ethernet/Ethernetif.o  ./src/Main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
@@ -944,9 +79,9 @@
 000-'Invoking: ARM v7 Print Size'
 000-arm-none-eabi-size lwip_test.elf  |tee "lwip_test.elf.size"
 000-   text	   data	    bss	    dec	    hex	filename
-000- 170400	   3528	3299456	3473384	 34ffe8	lwip_test.elf
+000- 169796	   3528	3299456	3472780	 34fd8c	lwip_test.elf
 000-'Finished building: lwip_test.elf.size'
 000-' '
 00255-
-17:46:19 Build Finished (took 25s.394ms)
+12:49:47 Build Finished (took 2s.248ms)
 

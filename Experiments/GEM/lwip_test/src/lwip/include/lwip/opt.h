@@ -1582,7 +1582,7 @@
  * small real-life targets. Some code like routing etc. can be left out.
  */
 #if !defined LWIP_SINGLE_NETIF || defined __DOXYGEN__
-#define LWIP_SINGLE_NETIF               0
+#define LWIP_SINGLE_NETIF               1
 #endif
 
 /**

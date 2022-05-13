@@ -12,13 +12,14 @@ src/Main.o src/Main.o: ../src/Main.c \
  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include/xpseudo_asm.h \
  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include/xreg_cortexa9.h \
  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include/xpseudo_asm_gcc.h \
- E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/netif.h \
+ E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/init.h \
  E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h \
  E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/lwipopts.h \
  E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/debug.h \
  E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/arch.h \
  E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cc.h \
  E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cpu.h \
+ E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/netif.h \
  E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/err.h \
  E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/ip_addr.h \
  E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/def.h \
@@ -37,6 +38,8 @@ src/Main.o src/Main.o: ../src/Main.c \
  E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/prot/ip4.h \
  E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/ip6.h \
  E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/prot/ip.h \
+ E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/udp.h \
+ E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/prot/udp.h \
  ../src/Ethernet\Ethernetif.h \
  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include/xemacps.h \
  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include/xstatus.h \
@@ -71,7 +74,7 @@ E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/exp
 
 E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include/xpseudo_asm_gcc.h:
 
-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/netif.h:
+E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/init.h:
 
 E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/opt.h:
 
@@ -84,6 +87,8 @@ E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lw
 E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cc.h:
 
 E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include/arch/cpu.h:
+
+E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/netif.h:
 
 E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/err.h:
 
@@ -120,6 +125,10 @@ E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lw
 E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/ip6.h:
 
 E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/prot/ip.h:
+
+E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/udp.h:
+
+E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/prot/udp.h:
 
 ../src/Ethernet\Ethernetif.h:
 
