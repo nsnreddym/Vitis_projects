@@ -53,7 +53,7 @@ src/Ethernet/Ethernetif.o src/Ethernet/Ethernetif.o: \
  E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/prot/ip4.h \
  E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/ip6.h \
  E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/prot/ip.h \
- ../src/Ethernet/Ethernetif.h ../src/Ethernet/EthernetHW.h
+ ../src/Ethernet/Ethernetif.h
 
 E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include/xparameters.h:
 
@@ -162,5 +162,3 @@ E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lw
 E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/lwip/prot/ip.h:
 
 ../src/Ethernet/Ethernetif.h:
-
-../src/Ethernet/EthernetHW.h:

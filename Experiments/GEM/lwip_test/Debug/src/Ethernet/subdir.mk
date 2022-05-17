@@ -4,15 +4,12 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../src/Ethernet/EthernetHW.c \
 ../src/Ethernet/Ethernetif.c 
 
 OBJS += \
-./src/Ethernet/EthernetHW.o \
 ./src/Ethernet/Ethernetif.o 
 
 C_DEPS += \
-./src/Ethernet/EthernetHW.d \
 ./src/Ethernet/Ethernetif.d 
 
 

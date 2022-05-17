@@ -10,7 +10,6 @@
 #include "lwip/udp.h"
 
 #include "Ethernet\Ethernetif.h"
-#include "Ethernet\EthernetHW.h"
 
 const char MAC_ADDRESS[] = {0x00, 0x0a, 0x35, 0x01, 0x02, 0x03};
 const char MAC_ADDRESS_broadcast[] = { 0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF };

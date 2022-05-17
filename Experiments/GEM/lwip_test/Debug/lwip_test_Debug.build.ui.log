@@ -1,87 +1,10 @@
-2022-05-13T12:49:45.259973100255-12:49:45 **** Incremental Build of configuration Debug for project lwip_test ****
+2022-05-13T18:41:55.28103200255-18:41:55 **** Incremental Build of configuration Debug for project lwip_test ****
 000-make all 
 000-make --no-print-directory pre-build
 000-a9-linaro-pre-build-step
 000-' '
 000-make --no-print-directory main-build
-000-'Building file: ../src/Ethernet/Ethernetif.c'
-000-'Invoking: ARM v7 gcc compiler'
-000-arm-none-eabi-gcc -Wall -O0 -g3 -IE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bspinclude/include -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include" -I"E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\contrib\include" -c -fmessage-length=0 -MT"src/Ethernet/Ethernetif.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -MMD -MP -MF"src/Ethernet/Ethernetif.d" -MT"src/Ethernet/Ethernetif.o" -o "src/Ethernet/Ethernetif.o" "../src/Ethernet/Ethernetif.c"
-000-../src/Ethernet/Ethernetif.c: In function 'EMAC_Read':
-000/lwip_test/src/Ethernet/Ethernetif.c99-1-1format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]1-../src/Ethernet/Ethernetif.c:99:33: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
-000-       printf("Frames Received: %d\nFrames present add: %x\n",nRxFrames,devicePtr->RxbdRing.PresentAdd);
-000-                                ~^                            ~~~~~~~~~
-000-                                %ld
-000/lwip_test/src/Ethernet/Ethernetif.c99-1-1format '%x' expects argument of type 'unsigned int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]1-../src/Ethernet/Ethernetif.c:99:57: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
-000-       printf("Frames Received: %d\nFrames present add: %x\n",nRxFrames,devicePtr->RxbdRing.PresentAdd);
-000-                                                        ~^              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-000-                                                        %lx
-000/lwip_test/src/Ethernet/Ethernetif.c101-1-1format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]1-../src/Ethernet/Ethernetif.c:101:24: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
-000-       printf("Buf1: %08x\nBuf2: %08x\n",bufstate,bufflags);
-000-                     ~~~^                ~~~~~~~~
-000-                     %08lx
-000/lwip_test/src/Ethernet/Ethernetif.c101-1-1format '%x' expects argument of type 'unsigned int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]1-../src/Ethernet/Ethernetif.c:101:36: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
-000-       printf("Buf1: %08x\nBuf2: %08x\n",bufstate,bufflags);
-000-                                 ~~~^             ~~~~~~~~
-000-                                 %08lx
-000-../src/Ethernet/Ethernetif.c: In function 'EMACps_init':
-000/lwip_test/src/Ethernet/Ethernetif.c178-1-1no return statement in function returning non-void [-Wreturn-type]1-../src/Ethernet/Ethernetif.c:178:1: warning: no return statement in function returning non-void [-Wreturn-type]
-000- }/* End of EMACps_init */
-000- ^
-000-../src/Ethernet/Ethernetif.c: In function 'EMACps_IntrHandler':
-000/lwip_test/src/Ethernet/Ethernetif.c534-1-1unused variable 'RegQ1ISR' [-Wunused-variable]1-../src/Ethernet/Ethernetif.c:534:8: warning: unused variable 'RegQ1ISR' [-Wunused-variable]
-000-    u32 RegQ1ISR = 0U;
-000-        ^~~~~~~~
-000/lwip_test/src/Ethernet/Ethernetif.c533-1-1unused variable 'RegCtrl' [-Wunused-variable]1-../src/Ethernet/Ethernetif.c:533:8: warning: unused variable 'RegCtrl' [-Wunused-variable]
-000-    u32 RegCtrl;
-000-        ^~~~~~~
-000/lwip_test/src/Ethernet/Ethernetif.c532-1-1unused variable 'RegSR' [-Wunused-variable]1-../src/Ethernet/Ethernetif.c:532:8: warning: unused variable 'RegSR' [-Wunused-variable]
-000-    u32 RegSR;
-000-        ^~~~~
-000-../src/Ethernet/Ethernetif.c: In function 'EMACps_datasend_ip':
-000/lwip_test/src/Ethernet/Ethernetif.c559-1-1passing argument 3 of 'ethernet_output' from incompatible pointer type [-Wincompatible-pointer-types]1-../src/Ethernet/Ethernetif.c:559:42: warning: passing argument 3 of 'ethernet_output' from incompatible pointer type [-Wincompatible-pointer-types]
-000-    return ethernet_output(netif, p, netif->hwaddr, dstaddr, ETHTYPE_IP);
-000-                                     ~~~~~^~~~~~~~
-000-In file included from ../src/Ethernet/Ethernetif.c:15:
-000/lwip_test/src/lwip/include/netif/ethernet.h67-1-1expected 'const struct eth_addr *' but argument is of type 'u8_t *' {aka 'unsigned char *'}0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/netif/ethernet.h:67:83: note: expected 'const struct eth_addr *' but argument is of type 'u8_t *' {aka 'unsigned char *'}
-000- err_t ethernet_output(struct netif* netif, struct pbuf* p, const struct eth_addr* src, const struct eth_addr* dst, u16_t eth_type);
-000-                                                            ~~~~~~~~~~~~~~~~~~~~~~~^~~
-000/lwip_test/src/Ethernet/Ethernetif.c559-1-1passing argument 4 of 'ethernet_output' from incompatible pointer type [-Wincompatible-pointer-types]1-../src/Ethernet/Ethernetif.c:559:52: warning: passing argument 4 of 'ethernet_output' from incompatible pointer type [-Wincompatible-pointer-types]
-000-    return ethernet_output(netif, p, netif->hwaddr, dstaddr, ETHTYPE_IP);
-000-                                                    ^~~~~~~
-000-In file included from ../src/Ethernet/Ethernetif.c:15:
-000/lwip_test/src/lwip/include/netif/ethernet.h67-1-1expected 'const struct eth_addr *' but argument is of type 'u8 *' {aka 'unsigned char *'}0-E:\Git_Repositories\Vitis_projects\Experiments\GEM\lwip_test\src\lwip\include/netif/ethernet.h:67:111: note: expected 'const struct eth_addr *' but argument is of type 'u8 *' {aka 'unsigned char *'}
-000- err_t ethernet_output(struct netif* netif, struct pbuf* p, const struct eth_addr* src, const struct eth_addr* dst, u16_t eth_type);
-000-                                                                                        ~~~~~~~~~~~~~~~~~~~~~~~^~~
-000-../src/Ethernet/Ethernetif.c: In function 'EMACps_datasend':
-000/lwip_test/src/Ethernet/Ethernetif.c613-1-1format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]1-../src/Ethernet/Ethernetif.c:613:26: warning: format '%d' expects argument of type 'int', but argument 2 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
-000-    printf("Frames Sent: %d\nFrames present add: %x\n",nTxFrames,devicePtr->TxbdRing.PresentAdd);
-000-                         ~^                            ~~~~~~~~~
-000-                         %ld
-000/lwip_test/src/Ethernet/Ethernetif.c613-1-1format '%x' expects argument of type 'unsigned int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]1-../src/Ethernet/Ethernetif.c:613:50: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'u32' {aka 'long unsigned int'} [-Wformat=]
-000-    printf("Frames Sent: %d\nFrames present add: %x\n",nTxFrames,devicePtr->TxbdRing.PresentAdd);
-000-                                                 ~^              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-000-                                                 %lx
-000/lwip_test/src/Ethernet/Ethernetif.c628-1-1no return statement in function returning non-void [-Wreturn-type]1-../src/Ethernet/Ethernetif.c:628:1: warning: no return statement in function returning non-void [-Wreturn-type]
-000- }
-000- ^
-000-../src/Ethernet/Ethernetif.c: In function 'EMAC_Read':
-000/lwip_test/src/Ethernet/Ethernetif.c147-1-1control reaches end of non-void function [-Wreturn-type]1-../src/Ethernet/Ethernetif.c:147:1: warning: control reaches end of non-void function [-Wreturn-type]
-000- }/* End of EMAC_Read */
-000- ^
-000-'Finished building: ../src/Ethernet/Ethernetif.c'
-000-' '
-000-'Building target: lwip_test.elf'
-000-'Invoking: ARM v7 gcc linker'
-000-arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LE:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/bsplib/lib -o "lwip_test.elf"  ./src/lwip/netif/ppp/polarssl/arc4.o ./src/lwip/netif/ppp/polarssl/des.o ./src/lwip/netif/ppp/polarssl/md4.o ./src/lwip/netif/ppp/polarssl/md5.o ./src/lwip/netif/ppp/polarssl/sha1.o  ./src/lwip/netif/ppp/auth.o ./src/lwip/netif/ppp/ccp.o ./src/lwip/netif/ppp/chap-md5.o ./src/lwip/netif/ppp/chap-new.o ./src/lwip/netif/ppp/chap_ms.o ./src/lwip/netif/ppp/demand.o ./src/lwip/netif/ppp/eap.o ./src/lwip/netif/ppp/ecp.o ./src/lwip/netif/ppp/eui64.o ./src/lwip/netif/ppp/fsm.o ./src/lwip/netif/ppp/ipcp.o ./src/lwip/netif/ppp/ipv6cp.o ./src/lwip/netif/ppp/lcp.o ./src/lwip/netif/ppp/magic.o ./src/lwip/netif/ppp/mppe.o ./src/lwip/netif/ppp/multilink.o ./src/lwip/netif/ppp/ppp.o ./src/lwip/netif/ppp/pppapi.o ./src/lwip/netif/ppp/pppcrypt.o ./src/lwip/netif/ppp/pppoe.o ./src/lwip/netif/ppp/pppol2tp.o ./src/lwip/netif/ppp/pppos.o ./src/lwip/netif/ppp/upap.o ./src/lwip/netif/ppp/utils.o ./src/lwip/netif/ppp/vj.o  ./src/lwip/netif/ethernet.o ./src/lwip/netif/lowpan6.o ./src/lwip/netif/lowpan6_ble.o ./src/lwip/netif/lowpan6_common.o ./src/lwip/netif/zepif.o  ./src/lwip/core/ipv6/dhcp6.o ./src/lwip/core/ipv6/ethip6.o ./src/lwip/core/ipv6/icmp6.o ./src/lwip/core/ipv6/inet6.o ./src/lwip/core/ipv6/ip6.o ./src/lwip/core/ipv6/ip6_addr.o ./src/lwip/core/ipv6/ip6_frag.o ./src/lwip/core/ipv6/mld6.o ./src/lwip/core/ipv6/nd6.o  ./src/lwip/core/ipv4/autoip.o ./src/lwip/core/ipv4/dhcp.o ./src/lwip/core/ipv4/etharp.o ./src/lwip/core/ipv4/icmp.o ./src/lwip/core/ipv4/igmp.o ./src/lwip/core/ipv4/ip4.o ./src/lwip/core/ipv4/ip4_addr.o ./src/lwip/core/ipv4/ip4_frag.o  ./src/lwip/core/altcp.o ./src/lwip/core/altcp_alloc.o ./src/lwip/core/altcp_tcp.o ./src/lwip/core/def.o ./src/lwip/core/dns.o ./src/lwip/core/inet_chksum.o ./src/lwip/core/init.o ./src/lwip/core/ip.o ./src/lwip/core/mem.o ./src/lwip/core/memp.o ./src/lwip/core/netif.o ./src/lwip/core/pbuf.o ./src/lwip/core/raw.o ./src/lwip/core/stats.o ./src/lwip/core/sys.o ./src/lwip/core/tcp.o ./src/lwip/core/tcp_in.o ./src/lwip/core/tcp_out.o ./src/lwip/core/timeouts.o ./src/lwip/core/udp.o  ./src/lwip/contrib/sys_arch.o ./src/lwip/contrib/sys_arch_raw.o  ./src/lwip/apps/snmp/snmp_asn1.o ./src/lwip/apps/snmp/snmp_core.o ./src/lwip/apps/snmp/snmp_mib2.o ./src/lwip/apps/snmp/snmp_mib2_icmp.o ./src/lwip/apps/snmp/snmp_mib2_interfaces.o ./src/lwip/apps/snmp/snmp_mib2_ip.o ./src/lwip/apps/snmp/snmp_mib2_snmp.o ./src/lwip/apps/snmp/snmp_mib2_system.o ./src/lwip/apps/snmp/snmp_mib2_tcp.o ./src/lwip/apps/snmp/snmp_mib2_udp.o ./src/lwip/apps/snmp/snmp_msg.o ./src/lwip/apps/snmp/snmp_netconn.o ./src/lwip/apps/snmp/snmp_pbuf_stream.o ./src/lwip/apps/snmp/snmp_raw.o ./src/lwip/apps/snmp/snmp_scalar.o ./src/lwip/apps/snmp/snmp_snmpv2_framework.o ./src/lwip/apps/snmp/snmp_snmpv2_usm.o ./src/lwip/apps/snmp/snmp_table.o ./src/lwip/apps/snmp/snmp_threadsync.o ./src/lwip/apps/snmp/snmp_traps.o ./src/lwip/apps/snmp/snmpv3.o ./src/lwip/apps/snmp/snmpv3_mbedtls.o  ./src/lwip/apps/smtp/smtp.o  ./src/lwip/apps/netbiosns/netbiosns.o  ./src/lwip/apps/mdns/mdns.o  ./src/lwip/apps/altcp_tls/altcp_tls_mbedtls.o ./src/lwip/apps/altcp_tls/altcp_tls_mbedtls_mem.o  ./src/lwip/api/api_lib.o ./src/lwip/api/api_msg.o ./src/lwip/api/err.o ./src/lwip/api/if_api.o ./src/lwip/api/netbuf.o ./src/lwip/api/netdb.o ./src/lwip/api/netifapi.o ./src/lwip/api/sockets.o ./src/lwip/api/tcpip.o  ./src/Ethernet/EthernetHW.o ./src/Ethernet/Ethernetif.o  ./src/Main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
-000-'Finished building target: lwip_test.elf'
-000-' '
-000-'Invoking: ARM v7 Print Size'
-000-arm-none-eabi-size lwip_test.elf  |tee "lwip_test.elf.size"
-000-   text	   data	    bss	    dec	    hex	filename
-000- 169796	   3528	3299456	3472780	 34fd8c	lwip_test.elf
-000-'Finished building: lwip_test.elf.size'
-000-' '
+000-make[1]: Nothing to be done for 'main-build'.
 00255-
-12:49:47 Build Finished (took 2s.248ms)
+18:41:56 Build Finished (took 1s.351ms)
 

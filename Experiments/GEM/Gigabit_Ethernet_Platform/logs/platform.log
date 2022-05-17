@@ -4241,3 +4241,743 @@ TRACE::2022-05-13.11:01:12::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vi
 E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
 
 TRACE::2022-05-13.11:01:12::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:54:57::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:54:57::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:54:57::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:04::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.18:55:04::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:04::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.18:55:04::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-05-15.18:55:06::SCWPlatform::Opened new HwDB with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:06::SCWReader::Active system found as  Gigabit_Ethernet_Platform
+TRACE::2022-05-15.18:55:06::SCWReader::Handling sysconfig Gigabit_Ethernet_Platform
+TRACE::2022-05-15.18:55:06::SCWDomain::checking for install qemu data   : 
+TRACE::2022-05-15.18:55:06::SCWDomain:: Using the QEMU Data from install at  : F:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2022-05-15.18:55:06::SCWDomain:: Using the QEMU args  from install at  : F:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2022-05-15.18:55:06::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:06::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:06::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:06::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.18:55:06::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:06::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.18:55:06::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:06::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.18:55:06::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:06::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:06::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:06::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.18:55:06::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:06::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.18:55:06::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:06::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.18:55:06::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2022-05-15.18:55:06::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:06::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:06::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:06::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.18:55:06::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:06::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.18:55:06::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:06::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:06::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.18:55:06::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-15.18:55:06::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-05-15.18:55:06::SCWMssOS::No sw design opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-15.18:55:06::SCWMssOS::mss exists loading the mss file  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-15.18:55:06::SCWMssOS::Opened the sw design from mss  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-15.18:55:06::SCWMssOS::Adding the swdes entry E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2022-05-15.18:55:06::SCWMssOS::updating the scw layer about changes
+TRACE::2022-05-15.18:55:07::SCWMssOS::Opened the sw design.  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-15.18:55:07::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.18:55:07::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.18:55:07::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:07::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.18:55:07::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-15.18:55:07::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-15.18:55:07::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-15.18:55:07::SCWMssOS:: library already available in sw design:  xilffs:4.2
+TRACE::2022-05-15.18:55:07::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.18:55:07::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.18:55:07::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:07::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.18:55:07::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-15.18:55:07::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-15.18:55:07::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-15.18:55:07::SCWMssOS:: library already available in sw design:  xilrsa:1.5
+TRACE::2022-05-15.18:55:07::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-05-15.18:55:07::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-05-15.18:55:07::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.18:55:07::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.18:55:07::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:07::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.18:55:07::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-15.18:55:07::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-15.18:55:07::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-15.18:55:07::SCWReader::No isolation master present  
+TRACE::2022-05-15.18:55:07::SCWDomain::checking for install qemu data   : 
+TRACE::2022-05-15.18:55:07::SCWDomain:: Using the QEMU Data from install at  : F:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2022-05-15.18:55:07::SCWDomain:: Using the QEMU args  from install at  : F:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2022-05-15.18:55:07::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.18:55:07::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.18:55:07::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:07::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.18:55:07::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.18:55:07::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.18:55:07::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:07::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.18:55:07::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:07::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-15.18:55:07::SCWMssOS::No sw design opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:07::SCWMssOS::mss exists loading the mss file  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:07::SCWMssOS::Opened the sw design from mss  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:07::SCWMssOS::Adding the swdes entry E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2022-05-15.18:55:07::SCWMssOS::updating the scw layer about changes
+TRACE::2022-05-15.18:55:07::SCWMssOS::Opened the sw design.  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:07::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-05-15.18:55:07::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-05-15.18:55:07::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.18:55:07::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.18:55:07::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:07::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.18:55:07::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:07::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-15.18:55:07::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:07::SCWReader::No isolation master present  
+TRACE::2022-05-15.18:55:07::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.18:55:07::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.18:55:07::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:07::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.18:55:07::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-15.18:55:07::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-15.18:55:07::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-15.18:55:07::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.18:55:07::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:07::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.18:55:07::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:07::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:07::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.18:55:07::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:07::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-15.18:55:07::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:08::SCWMssOS::In reload Mss file.
+TRACE::2022-05-15.18:55:08::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:08::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:08::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:08::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.18:55:08::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:08::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.18:55:08::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:08::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.18:55:08::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:08::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+KEYINFO::2022-05-15.18:55:08::SCWMssOS::Could not open the swdb for system_0
+KEYINFO::2022-05-15.18:55:08::SCWMssOS::Could not open the sw design at  system_0
+ERROR: [Hsi 55-1558] Software Design system_0 is not found
+
+TRACE::2022-05-15.18:55:08::SCWMssOS::Cleared the swdb table entry
+TRACE::2022-05-15.18:55:08::SCWMssOS::No sw design opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:08::SCWMssOS::mss exists loading the mss file  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:08::SCWMssOS::Opened the sw design from mss  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:08::SCWMssOS::Adding the swdes entry E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2022-05-15.18:55:08::SCWMssOS::updating the scw layer about changes
+TRACE::2022-05-15.18:55:08::SCWMssOS::Opened the sw design.  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:08::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:08::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:08::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:08::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.18:55:08::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:08::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.18:55:08::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:08::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.18:55:08::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:08::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-15.18:55:08::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:08::SCWMssOS::Removing the swdes entry for  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:08::SCWMssOS::In reload Mss file.
+TRACE::2022-05-15.18:55:08::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:08::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:08::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:08::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.18:55:08::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:08::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.18:55:08::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:08::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.18:55:08::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:08::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-15.18:55:08::SCWMssOS::No sw design opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:08::SCWMssOS::mss exists loading the mss file  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:08::SCWMssOS::Opened the sw design from mss  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:08::SCWMssOS::Adding the swdes entry E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2022-05-15.18:55:08::SCWMssOS::updating the scw layer about changes
+TRACE::2022-05-15.18:55:08::SCWMssOS::Opened the sw design.  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:08::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:08::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:08::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:08::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.18:55:08::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.18:55:08::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.18:55:08::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:08::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.18:55:08::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.18:55:08::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:08::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-15.18:55:08::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.18:55:08::SCWMssOS::Removing the swdes entry for  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+LOG::2022-05-15.19:08:29::SCWPlatform::Started generating the artifacts platform Gigabit_Ethernet_Platform
+TRACE::2022-05-15.19:08:29::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-05-15.19:08:29::SCWPlatform::Started generating the artifacts for system configuration Gigabit_Ethernet_Platform
+LOG::2022-05-15.19:08:29::SCWSystem::Checking the domain zynq_fsbl
+LOG::2022-05-15.19:08:29::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2022-05-15.19:08:29::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2022-05-15.19:08:29::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2022-05-15.19:08:29::SCWSystem::Checking the domain standalone_domain
+LOG::2022-05-15.19:08:29::SCWSystem::Not a boot domain 
+LOG::2022-05-15.19:08:29::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-05-15.19:08:29::SCWDomain::Generating domain artifcats
+TRACE::2022-05-15.19:08:29::SCWMssOS::Generating standalone artifcats
+TRACE::2022-05-15.19:08:29::SCWMssOS::Copying the qemu file from  F:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/qemu/
+TRACE::2022-05-15.19:08:29::SCWMssOS::Copying the qemu file from  F:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/qemu/
+TRACE::2022-05-15.19:08:29::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-05-15.19:08:29::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.19:08:29::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.19:08:29::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.19:08:29::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.19:08:29::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.19:08:29::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.19:08:29::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.19:08:29::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.19:08:29::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.19:08:29::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.19:08:29::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-15.19:08:29::SCWMssOS::No sw design opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.19:08:29::SCWMssOS::mss exists loading the mss file  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.19:08:29::SCWMssOS::Opened the sw design from mss  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.19:08:29::SCWMssOS::Adding the swdes entry E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2022-05-15.19:08:29::SCWMssOS::updating the scw layer about changes
+TRACE::2022-05-15.19:08:29::SCWMssOS::Opened the sw design.  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.19:08:29::SCWMssOS::Completed writing the mss file at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2022-05-15.19:08:29::SCWMssOS::Mss edits present, copying mssfile into export location E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.19:08:29::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-05-15.19:08:29::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-05-15.19:08:29::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2022-05-15.19:08:29::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-05-15.19:08:29::SCWMssOS::Copying to export directory.
+TRACE::2022-05-15.19:08:30::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-05-15.19:08:30::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-05-15.19:08:30::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-05-15.19:08:30::SCWSystem::Completed Processing the sysconfig Gigabit_Ethernet_Platform
+LOG::2022-05-15.19:08:30::SCWPlatform::Completed generating the artifacts for system configuration Gigabit_Ethernet_Platform
+TRACE::2022-05-15.19:08:30::SCWPlatform::Started preparing the platform 
+TRACE::2022-05-15.19:08:30::SCWSystem::Writing the bif file for system config Gigabit_Ethernet_Platform
+TRACE::2022-05-15.19:08:30::SCWSystem::dir created 
+TRACE::2022-05-15.19:08:30::SCWSystem::Writing the bif 
+TRACE::2022-05-15.19:08:30::SCWPlatform::Started writing the spfm file 
+TRACE::2022-05-15.19:08:30::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-05-15.19:08:30::SCWPlatform::Completed generating the platform
+TRACE::2022-05-15.19:08:30::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.19:08:30::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.19:08:30::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.19:08:30::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.19:08:30::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.19:08:30::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.19:08:30::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.19:08:30::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.19:08:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.19:08:30::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-15.19:08:30::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-15.19:08:30::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-15.19:08:30::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.19:08:30::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.19:08:30::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.19:08:30::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.19:08:30::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.19:08:30::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.19:08:30::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.19:08:30::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.19:08:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.19:08:30::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.19:08:30::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-15.19:08:30::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.19:08:30::SCWWriter::formatted JSON is {
+	"platformName":	"Gigabit_Ethernet_Platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Gigabit_Ethernet_Platform",
+	"platHandOff":	"E:/Git_Repositories/Vivado_Workspace/LWIP_Stack_Test/LWIP_Stack_Test_wrapper_v1.xsa",
+	"platIntHandOff":	"<platformDir>/hw/LWIP_Stack_Test_wrapper_v1.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Gigabit_Ethernet_Platform",
+	"systems":	[{
+			"systemName":	"Gigabit_Ethernet_Platform",
+			"systemDesc":	"Gigabit_Ethernet_Platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Gigabit_Ethernet_Platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"1ae1b6316f4baf93c306649432db63bf",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"F:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"F:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"e1e44531139312af8800eac4047b24e2",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-05-15.19:08:30::SCWPlatform::updated the xpfm file.
+TRACE::2022-05-15.19:08:30::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.19:08:30::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.19:08:30::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.19:08:30::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-15.19:08:30::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-15.19:08:30::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-15.19:08:30::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.19:08:30::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper_17
+TRACE::2022-05-15.19:08:30::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-15.19:08:30::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-15.19:08:30::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-15.19:08:30::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-16.09:28:42::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:42::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:42::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:44::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-16.09:28:44::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:44::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-16.09:28:44::SCWPlatform::Do not have an existing db opened. 
+TRACE::2022-05-16.09:28:48::SCWPlatform::Opened new HwDB with name LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:48::SCWReader::Active system found as  Gigabit_Ethernet_Platform
+TRACE::2022-05-16.09:28:48::SCWReader::Handling sysconfig Gigabit_Ethernet_Platform
+TRACE::2022-05-16.09:28:48::SCWDomain::checking for install qemu data   : 
+TRACE::2022-05-16.09:28:48::SCWDomain:: Using the QEMU Data from install at  : F:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2022-05-16.09:28:48::SCWDomain:: Using the QEMU args  from install at  : F:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2022-05-16.09:28:48::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-16.09:28:48::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-16.09:28:48::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:48::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.09:28:48::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-16.09:28:48::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-16.09:28:48::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:48::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.09:28:48::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2022-05-16.09:28:48::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-16.09:28:48::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-16.09:28:48::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:48::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.09:28:48::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.09:28:48::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2022-05-16.09:28:48::SCWMssOS::No sw design opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.09:28:48::SCWMssOS::mss exists loading the mss file  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.09:28:48::SCWMssOS::Opened the sw design from mss  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.09:28:48::SCWMssOS::Adding the swdes entry E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2022-05-16.09:28:48::SCWMssOS::updating the scw layer about changes
+TRACE::2022-05-16.09:28:48::SCWMssOS::Opened the sw design.  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.09:28:48::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-16.09:28:48::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-16.09:28:48::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:48::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.09:28:48::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.09:28:48::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.09:28:48::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.09:28:48::SCWMssOS:: library already available in sw design:  xilffs:4.2
+TRACE::2022-05-16.09:28:48::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-16.09:28:48::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-16.09:28:48::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:48::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.09:28:48::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.09:28:48::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.09:28:48::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.09:28:48::SCWMssOS:: library already available in sw design:  xilrsa:1.5
+TRACE::2022-05-16.09:28:48::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-05-16.09:28:48::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-05-16.09:28:48::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-16.09:28:48::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-16.09:28:48::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:48::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.09:28:48::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.09:28:48::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.09:28:48::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.09:28:48::SCWReader::No isolation master present  
+TRACE::2022-05-16.09:28:48::SCWDomain::checking for install qemu data   : 
+TRACE::2022-05-16.09:28:48::SCWDomain:: Using the QEMU Data from install at  : F:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/
+TRACE::2022-05-16.09:28:48::SCWDomain:: Using the QEMU args  from install at  : F:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt
+TRACE::2022-05-16.09:28:48::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-16.09:28:48::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-16.09:28:48::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:48::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.09:28:48::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-16.09:28:48::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:48::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-16.09:28:48::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:48::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:48::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.09:28:48::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-16.09:28:48::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.09:28:48::SCWMssOS::No sw design opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-16.09:28:48::SCWMssOS::mss exists loading the mss file  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-16.09:28:48::SCWMssOS::Opened the sw design from mss  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-16.09:28:48::SCWMssOS::Adding the swdes entry E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2022-05-16.09:28:48::SCWMssOS::updating the scw layer about changes
+TRACE::2022-05-16.09:28:49::SCWMssOS::Opened the sw design.  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-16.09:28:49::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2022-05-16.09:28:49::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2022-05-16.09:28:49::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:49::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:49::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:49::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-16.09:28:49::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:49::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-16.09:28:49::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:49::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.09:28:49::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-16.09:28:49::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.09:28:49::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-16.09:28:49::SCWReader::No isolation master present  
+LOG::2022-05-16.09:28:49::SCWPlatform::Started generating the artifacts platform Gigabit_Ethernet_Platform
+TRACE::2022-05-16.09:28:49::SCWPlatform::Sanity checking of platform is completed
+LOG::2022-05-16.09:28:49::SCWPlatform::Started generating the artifacts for system configuration Gigabit_Ethernet_Platform
+LOG::2022-05-16.09:28:49::SCWSystem::Checking the domain zynq_fsbl
+LOG::2022-05-16.09:28:49::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2022-05-16.09:28:49::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2022-05-16.09:28:49::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2022-05-16.09:28:49::SCWSystem::Checking the domain standalone_domain
+LOG::2022-05-16.09:28:49::SCWSystem::Not a boot domain 
+LOG::2022-05-16.09:28:49::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2022-05-16.09:28:49::SCWDomain::Generating domain artifcats
+TRACE::2022-05-16.09:28:49::SCWMssOS::Generating standalone artifcats
+TRACE::2022-05-16.09:28:49::SCWMssOS::Copying the qemu file from  F:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/qemu/
+TRACE::2022-05-16.09:28:49::SCWMssOS::Copying the qemu file from  F:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt To E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/export/Gigabit_Ethernet_Platform/sw/Gigabit_Ethernet_Platform/standalone_domain/qemu/
+TRACE::2022-05-16.09:28:49::SCWMssOS:: Copying the user libraries. 
+TRACE::2022-05-16.09:28:49::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:49::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:49::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:49::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-16.09:28:49::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:49::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-16.09:28:49::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:49::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.09:28:49::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-16.09:28:49::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.09:28:49::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-16.09:28:49::SCWMssOS::Completed writing the mss file at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2022-05-16.09:28:49::SCWMssOS::Mss edits present, copying mssfile into export location E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-16.09:28:49::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2022-05-16.09:28:49::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2022-05-16.09:28:49::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2022-05-16.09:28:49::SCWMssOS::skipping the bsp build ... 
+TRACE::2022-05-16.09:28:49::SCWMssOS::Copying to export directory.
+TRACE::2022-05-16.09:28:49::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2022-05-16.09:28:49::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2022-05-16.09:28:49::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2022-05-16.09:28:49::SCWSystem::Completed Processing the sysconfig Gigabit_Ethernet_Platform
+LOG::2022-05-16.09:28:49::SCWPlatform::Completed generating the artifacts for system configuration Gigabit_Ethernet_Platform
+TRACE::2022-05-16.09:28:49::SCWPlatform::Started preparing the platform 
+TRACE::2022-05-16.09:28:49::SCWSystem::Writing the bif file for system config Gigabit_Ethernet_Platform
+TRACE::2022-05-16.09:28:49::SCWSystem::dir created 
+TRACE::2022-05-16.09:28:49::SCWSystem::Writing the bif 
+TRACE::2022-05-16.09:28:49::SCWPlatform::Started writing the spfm file 
+TRACE::2022-05-16.09:28:49::SCWPlatform::Started writing the xpfm file 
+TRACE::2022-05-16.09:28:49::SCWPlatform::Completed generating the platform
+TRACE::2022-05-16.09:28:49::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:49::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:49::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:49::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-16.09:28:49::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:49::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-16.09:28:49::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:49::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.09:28:49::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.09:28:49::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.09:28:49::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2022-05-16.09:28:49::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:49::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:49::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:49::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-16.09:28:49::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:49::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-16.09:28:49::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:49::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:49::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.09:28:49::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-16.09:28:49::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.09:28:49::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-16.09:28:49::SCWWriter::formatted JSON is {
+	"platformName":	"Gigabit_Ethernet_Platform",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"Gigabit_Ethernet_Platform",
+	"platHandOff":	"E:/Git_Repositories/Vivado_Workspace/LWIP_Stack_Test/LWIP_Stack_Test_wrapper_v1.xsa",
+	"platIntHandOff":	"<platformDir>/hw/LWIP_Stack_Test_wrapper_v1.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"Gigabit_Ethernet_Platform",
+	"systems":	[{
+			"systemName":	"Gigabit_Ethernet_Platform",
+			"systemDesc":	"Gigabit_Ethernet_Platform",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"Gigabit_Ethernet_Platform",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"1ae1b6316f4baf93c306649432db63bf",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.2", "xilrsa:1.5"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"F:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/qemu_args.txt",
+					"qemuData":	"F:/Xilinx/Vitis/2019.2/data/emulation/platforms/zynq/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.1",
+					"mssFile":	"",
+					"md5Digest":	"e1e44531139312af8800eac4047b24e2",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2022-05-16.09:28:49::SCWPlatform::updated the xpfm file.
+TRACE::2022-05-16.09:28:50::SCWPlatform::Trying to open the hw design at E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:50::SCWPlatform::DSA given E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:50::SCWPlatform::DSA absoulate path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:50::SCWPlatform::DSA directory E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw
+TRACE::2022-05-16.09:28:50::SCWPlatform:: Platform Path E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/hw/LWIP_Stack_Test_wrapper_v1.xsa
+TRACE::2022-05-16.09:28:50::SCWPlatform:: Unique name xilinx:eclypse-z7::0.0
+TRACE::2022-05-16.09:28:50::SCWPlatform::Trying to set the existing hwdb with name LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:50::SCWPlatform::Opened existing hwdb LWIP_Stack_Test_wrapper
+TRACE::2022-05-16.09:28:50::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2022-05-16.09:28:50::SCWMssOS::Checking the sw design at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2022-05-16.09:28:50::SCWMssOS::DEBUG:  swdes dump  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2022-05-16.09:28:50::SCWMssOS::Sw design exists and opened at  E:/Git_Repositories/Vitis_projects/Experiments/GEM/Gigabit_Ethernet_Platform/ps7_cortexa9_0/standalone_domain/bsp/system.mss

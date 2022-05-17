@@ -17,7 +17,6 @@
 #include "lwip/pbuf.h"
 
 #include "Ethernetif.h"
-#include "EthernetHW.h"
 
 EMACPS_device_struct *EMACPS_device_ptr;
 EMACPS_device_struct EMACPS_device;
@@ -96,9 +95,9 @@ struct netif *EMAC_Read(struct netif *netif)
    if(bufstate & RBD_RDY_BIT_MASK)
    {
       nRxFrames = nRxFrames + 1;
-      printf("Frames Received: %d\nFrames present add: %x\n",nRxFrames,devicePtr->RxbdRing.PresentAdd);
+      printf("Frames Received: %ld\nFrames present add: %lx\n",nRxFrames,devicePtr->RxbdRing.PresentAdd);
       bufadd = bufstate & ~(RBD_RDY_BIT_MASK | RBD_WRAP_BIT_MASK);
-      printf("Buf1: %08x\nBuf2: %08x\n",bufstate,bufflags);
+      printf("Buf1: %08lx\nBuf2: %08lx\n",bufstate,bufflags);
 
       p = pbuf_alloc(PBUF_LINK, bufflags & RBD_DATA_MASK, PBUF_POOL);
 
@@ -142,7 +141,7 @@ struct netif *EMAC_Read(struct netif *netif)
       p = NULL;
    }
 
-
+   return ERR_OK;
 
 }/* End of EMAC_Read */
 /************************* Static Members *******************************/
@@ -174,6 +173,8 @@ static err_t EMACps_init(struct netif *netif)
 
    /* Start device */
    EMACps_devStart(EMACPS_device_ptr);
+
+   return ERR_OK;
 
 }/* End of EMACps_init */
 
@@ -556,7 +557,7 @@ static void EMACps_IntrHandler(void *deviceptr)
 //void (EMACPS_device_struct *devicePtr)
 static err_t EMACps_datasend_ip(struct netif *netif, struct pbuf *p, const ip4_addr_t *ipaddr)
 {
-   return ethernet_output(netif, p, netif->hwaddr, dstaddr, ETHTYPE_IP);
+   return ethernet_output(netif, p, (const struct eth_addr*)netif->hwaddr, (const struct eth_addr*)dstaddr, ETHTYPE_IP);
 }
 static err_t EMACps_datasend(struct netif *netif, struct pbuf *p)
 {
@@ -610,7 +611,7 @@ static err_t EMACps_datasend(struct netif *netif, struct pbuf *p)
       }
    }
    nTxFrames = nTxFrames + 1;
-   printf("Frames Sent: %d\nFrames present add: %x\n",nTxFrames,devicePtr->TxbdRing.PresentAdd);
+   printf("Frames Sent: %ld\nFrames present add: %lx\n",nTxFrames,devicePtr->TxbdRing.PresentAdd);
 
    if(devicePtr->TxbdRing.PresentAdd == devicePtr->TxbdRing.LastAdd)
    {
@@ -625,4 +626,6 @@ static err_t EMACps_datasend(struct netif *netif, struct pbuf *p)
 
    pbuf_free(p);
    p = NULL;
+
+   return ERR_OK;
 }
